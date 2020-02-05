@@ -53,7 +53,7 @@
 }
 .slider-dots{
     position: absolute;
-    right: 80px;
+    right: 50px;
     bottom: 40px;
     max-width: 920px;
     width: 100%;
@@ -84,5 +84,25 @@
         color: #FFFFFF;
     }
 }
+.header__aside{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
 
+}
+.header__title{
+    position: absolute;
+    max-width: 500px;
+    font-family: Fira Sans;
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 156px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.07;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
 //@import "media";
