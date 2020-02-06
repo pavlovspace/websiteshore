@@ -6,6 +6,11 @@ a{
     display: inline-block;
     text-decoration: none;
 }
+ul, li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .suptitle-left{
     font-size: 22px;
     line-height: 32px;

@@ -89,7 +89,9 @@
     top: 0;
     left: 0;
     z-index: 5;
-
+    border-right: 1px solid rgba(255, 255, 255, 0.26);
+    height: 100%;
+    color:#fff;
 }
 .header__title{
     position: absolute;
@@ -104,5 +106,63 @@
     top: 0;
     left: 0;
     z-index: 4;
+}
+.logo{
+    padding: 0px 0px 40px 0px;
+}
+.menu {
+    &__list {
+        text-align: center;
+    }
+    a{
+        color: #fff;
+    }
+    span{
+        display: block;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        padding: 5px 0px 0px 0px;
+        margin: 0px 0px 20px 0px;
+    }
+}
+.header__search{
+    text-align: center;
+}
+.header__date{
+    text-align: center;
+    font-size: 72px;
+    line-height: 64px;
+    text-transform: uppercase;
+    font-weight: 800;
+    span{
+        letter-spacing: 1.4px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        display: block;
+        margin: 17px 0px 30px 0px;
+    }
+}
+.header__location{
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.1px;
+    font-weight: 300;
+    position: relative;
+    padding: 0px 25px 19px 0px;
+    margin: 0px 0px 47px 40px;
+    &:before{
+        content:"";
+        position: absolute;
+        width: 11px;
+        height: 13px;
+        background: url(../img/POI.svg) no-repeat ;
+        left: 0;
+        top: 0;
+    }
+
 }
 //@import "media";
