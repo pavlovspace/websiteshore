@@ -163,6 +163,11 @@
         left: 0;
         top: 0;
     }
-
+}
+.header__map{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
 }
 //@import "media";
