@@ -204,10 +204,8 @@
         stroke-dashoffset:0;
     }
 }
-.surfing{
+.sport{
     padding: 160px 0 210px;
-    background: url(../img/earthicon.svg)top right no-repeat;
-    background-size: contain;
 }
 .title{
     text-transform: uppercase;
@@ -216,7 +214,7 @@
         position: relative;
         font-size: 200px;
         font-weight: 800;
-        color: rgba(57, 146, 247, 0.068);
+        color: #ff6d051e;
         transform: translateX(-50px);
     }
     h3{
@@ -231,7 +229,7 @@
     }
 }
     // SURFING
-.surfing__subtitle{
+.sport__subtitle{
     display: flex;
     justify-content: flex-end;
     padding-right: 80px;
