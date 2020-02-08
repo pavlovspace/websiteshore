@@ -82,6 +82,7 @@
         font-weight: 300;
         line-height: 19px;
         color: #FFFFFF;
+        opacity: 0.8;
     }
 }
 .header__aside{
@@ -205,6 +206,8 @@
 }
 .surfing{
     padding: 160px 0 210px;
+    background: url(../img/earthicon.svg)top right no-repeat;
+    background-size: contain;
 }
 .title{
     text-transform: uppercase;
@@ -213,7 +216,7 @@
         position: relative;
         font-size: 200px;
         font-weight: 800;
-        color: rgba(57, 146, 247, 0.02);
+        color: rgba(57, 146, 247, 0.068);
         transform: translateX(-50px);
     }
     h3{
@@ -221,11 +224,18 @@
         border-bottom: 1px solid $blue;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 178px;
         font-size: 80px;
         margin: 0;
         color: #fff;
     }
+}
+    // SURFING
+.surfing__subtitle{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    margin-top: -80px;
 }
 
 //@import "media";

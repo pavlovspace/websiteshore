@@ -1,3 +1,6 @@
+html{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
@@ -13,6 +16,10 @@ ul, li{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
 }
 .suptitle-left{
     font-size: 22px;
@@ -32,5 +39,21 @@ ul, li{
         background-color: #fff;
         left: 0;
         top: 50%;
+    }
+}
+// SURFING AKTUALNA LOKALIZACJA
+.subtitle{
+    width: 500px;
+    text-align: right;
+}
+.subtitle__head{
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 5px 0px 0px;
+    span{
+        font-weight: 100;
+        opacity: 0.5;
     }
 }
