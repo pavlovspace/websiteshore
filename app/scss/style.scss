@@ -235,5 +235,52 @@
     padding-right: 80px;
     margin-top: -80px;
 }
+.sport-box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+}
+.sport-slider{
+    padding: 110px 0px 0px 0px;
+    .slider-arrows{
+        top:50px;
+    }
+}
+.sport-box__inner{
+    min-height: 750px;
+    background: rgba(#1C2121, .80);
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.sport-box__inner-title{
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 800;
+    padding: 70px 0 0 40px;
+}
+.sport-box__inner-title-location{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 8px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 50%;
+    bottom: 150px;
+    width: 0;
+    height: 0;
+    white-space: nowrap;
+    span{
+        font-weight: 100;
+    }
+}
+.btn-box{
+    bottom: 0;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
 
 //@import "media";
