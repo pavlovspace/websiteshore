@@ -51,7 +51,7 @@
 .slider-arrows__left{
     right: 125px;
 }
-.slider-dots{
+.slider-dotshead{
     position: absolute;
     right: 50px;
     bottom: 40px;
@@ -205,7 +205,7 @@
     }
 }
 .sport{
-    padding: 160px 0 210px;
+    padding: 160px 0 110px;
 }
 .title{
     text-transform: uppercase;
@@ -228,7 +228,7 @@
         color: #fff;
     }
 }
-    // SURFING
+    // SPORT
 .sport__subtitle{
     display: flex;
     justify-content: flex-end;
@@ -246,6 +246,19 @@
     .slider-arrows{
         top:50px;
     }
+    .slick-slide:nth-child(odd){
+        .sport-box{
+            margin: 55px 0 0 0;
+        }
+    }
+    .slick-current{
+        .btn-box{
+            display: block;
+        }
+        .sport-box__inner{
+            background: rgba(#1C2121, .20);
+        }
+    }
 }
 .sport-box__inner{
     min-height: 750px;
@@ -253,6 +266,13 @@
     position: relative;
     left: 0;
     bottom: 0;
+    transition: all .5s;
+    &:hover{
+        background: rgba(#1C2121, .30);
+        .btn-box{
+            display: block;
+        }
+    }
 }
 .sport-box__inner-title{
     text-transform: uppercase;
@@ -267,7 +287,7 @@
     letter-spacing: 8px;
     transform: rotate(-90deg);
     position: absolute;
-    left: 50%;
+    left: 220px;
     bottom: 150px;
     width: 0;
     height: 0;
@@ -279,8 +299,10 @@
 .btn-box{
     bottom: 0;
     position: absolute;
-    left: 45%;
-    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    display: none;
 }
 
 //@import "media";
