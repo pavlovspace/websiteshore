@@ -539,29 +539,7 @@
     </div>
   </section>
   <!-- Shop -->
-  <div class="InputBlock">
-    <input type="text" name="telefont" class="tele" placeholder="телефон">
-    </div>
-    <div class="InputBlock">
-    <textarea name="message" class="message" placeholder="удобное время для звонка"></textarea>
-    </div>
-    <input type="submit" class="submit" name="submit" value="заказать">
-<php>\r\n";;
-  $headers .= "bcc: \r\n";;
-  $message = "
-  
-  
-  
-  
-  <table><tbody><tr><td>Телефон</td><td>".convert($_REQUEST["telefont"])."</td></tr><tr><td>Удобное время для звонка</td><td>".convert($_REQUEST["message"])."</td></tr></tbody></table>
-  ";
-  // отправляем email письмо
-  $esend = mail($mailTo, $subject, $message, $headers);
- }
- 
- if ($esend) echo 'ok';
-  else echo 'error';
- ?></php>    
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
