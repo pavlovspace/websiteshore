@@ -238,7 +238,17 @@
     justify-content: flex-end;
     padding-right: 80px;
     margin-top: -80px;
-
+        .suptitle-left{
+            &::before{
+                content: "";
+                position: absolute;
+                width: 80px;
+                height: 1px;
+                background-color: #fff;
+                left: 75px;
+                top: 50%;
+            }
+        }
 }
 .sport-box{
     background-position: center;
@@ -256,6 +266,7 @@
             margin: 55px 0 0 0;
         }
     }
+
     .slick-current{
         .btn-box{
             display: block;
