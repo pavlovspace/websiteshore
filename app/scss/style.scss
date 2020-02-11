@@ -2,6 +2,7 @@
 @import "libs";
 //@import "fonts";
 @import "global";
+@import "form";
 
 .header{ 
     position: relative;
@@ -207,10 +208,12 @@
  // SPORT
 .sport{
     padding: 160px 0 0px;
-    margin: 0 0 110px 0;
+    margin: 0 0 0 0;
     background: url(../img/sport-bg.jpg) 0 0 no-repeat;
     background-size: cover;
     position: relative;
+    border-top: 1px solid rgba(255,255,255,0.26) ;
+
 }
 .title{
     text-transform: uppercase;
@@ -471,4 +474,32 @@
             right: 0;
         }
     }
+}
+// Travel
+.travel{
+    padding: 160px 0 0px;
+    margin: 0 0 0 0;
+    background: url(../img/sport-bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top: 1px solid rgba(255,255,255,0.26) ;
+
+}
+//Relax
+.relax{
+    padding: 160px 0 0px;
+    margin: 0 0 0 0;
+    background: url(../img/sport-bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top: 1px solid rgba(255,255,255,0.26) ;
+}
+//Shop
+.shop{
+    padding: 160px 0 0px;
+    margin: 0 0 0 0;
+    background: url(../img/sport-bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top: 1px solid rgba(255,255,255,0.26) ;
 }
