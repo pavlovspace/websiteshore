@@ -1,10 +1,15 @@
 html{
     box-sizing: border-box;
 }
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
 body{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
-    background-color: #201208;
+    background-color: #b47a0e;
     color: #FFFFFF;
 }
 a{
@@ -41,11 +46,27 @@ ul, li{
         top: 50%;
     }
 }
-// SURFING AKTUALNA LOKALIZACJA
-.subtitle{
-    width: 500px;
-    text-align: right;    
+.suptitle-right {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 7.33333px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-right: 103px;
+    position: relative;
+    display: inline-block;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 1px;
+        background-color: #fff;
+        right: 0;
+        top: 50%;
+    }
 }
+// SURFING AKTUALNA LOKALIZACJA
 .subtitle__head{
     font-weight: 800;
     font-size: 40px;
@@ -55,6 +76,19 @@ ul, li{
     span{
         font-weight: 100;
         opacity: 0.5;
+    }
+}
+.descr {
+    display: inline-block;
+    padding: 0 0 0 5px;
+}
+.descr__head{
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 0px 5px 0px 0px;
+    span{
+        font-weight: 100;
     }
 }
 .btn{
