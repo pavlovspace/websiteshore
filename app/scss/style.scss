@@ -492,34 +492,27 @@
     background-image: url(../img/travel-cup.png);
     background-position: bottom right;
     background-repeat: no-repeat;
-}
-.container {
-}
-.title {
-}
-.travel__slider {
-}
-.travel__slider-item {
-}
-.travel-slider {
+    .slider-arrows{
+        top: 225px;
+    }
 }
 .travel-slider__top {
     background-repeat: no-repeat;
-    background-position: 0 0;
-    min-height: 780px;
+    background-position: top left;
+    min-height: 813px;
 }
 .travel-slider__subtitle {
     display: flex;
     justify-content: flex-end;
     padding: 132px 80px 0 0;
+    margin: 0;
 }
 .subtitle{
     text-align: right;
     width: 700px;
 }
-.suptitle-left {
-}
-.subtitle__head {
+.descr{
+    padding: 32px 0 0 5px;
 }
 .travel-slider__descr {
     min-height: 320px;
@@ -527,19 +520,20 @@
     background-repeat: no-repeat;
     padding: 160px 0px 0px 130px;
     margin: -230px 0px 0px 0px;
-    img{
-        padding: 0px 0px 0px 25px;
+    .descr__head{
+        position: relative;
+        padding: 0px 80px 0px 0px;
+        img{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
     }
-}
-.descr {
-}
-.headline-right {
-}
-.descr__head {
 }
 .travel-slider__info {
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }
 .travel-slider__info-item {
     min-height: 200px;
@@ -598,6 +592,4 @@
 .travel-slider__btn {
     text-align: center;
     padding: 10px 0px 0 0px;
-}
-.btn {
 }
