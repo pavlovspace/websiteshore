@@ -9,7 +9,7 @@ html{
 body{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
-    background-color: #b47a0e;
+    background-color: #905127;
     color: #FFFFFF;
 }
 a{
@@ -22,6 +22,27 @@ ul, li{
     margin: 0;
     padding: 0;
 }
+.title{
+    text-transform: uppercase;
+    span{
+        display: inline-block;
+        position: relative;
+        font-size: 200px;
+        font-weight: 800;
+        color: #ffffff10;
+        transform: translateX(-50px);
+    }
+    h3{
+        border-top: 1px solid $blue;
+        border-bottom: 1px solid $blue;
+        position: absolute;
+        top: 0;
+        right: 178px;
+        font-size: 80px;
+        margin: 0;
+        color: #fff;
+    }
+} 
 .container{
     max-width: 1920px;
     margin: 0 auto;
@@ -47,6 +68,7 @@ ul, li{
     }
 }
 .suptitle-right {
+    background-color: rgba(74, 154, 246, 0.198);
     font-size: 22px;
     line-height: 32px;
     letter-spacing: 7.33333px;
@@ -93,6 +115,7 @@ ul, li{
 }
 .btn{
     text-transform: uppercase;
+    margin-bottom: 50px;;
     font-size: 20px;
     line-height: 36px;
     font-weight: 400;

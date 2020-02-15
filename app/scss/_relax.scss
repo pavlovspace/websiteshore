@@ -1,0 +1,107 @@
+.relax {
+    padding: 160px 0 270px 0;
+    background-image: url(../img/travel-cup.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    .slider-arrows{
+        top: 225px;
+    }
+}
+.relax-slider__top {
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 813px;
+    background-size: 1370px;
+}
+.relax-slider__subtitle {
+    display: flex;
+    justify-content: flex-end;
+    padding: 132px 80px 0 0;
+    margin: 0;
+}
+.subtitle{
+    text-align: right;
+    width: 700px;
+}
+.descr{
+    padding: 40px 0 0 5px;
+}
+.relax-slider__descr {
+    min-height: 320px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 160px 0px 0px 130px;
+    margin: -230px 0px 0px 0px;
+    .descr__head{
+        position: relative;
+        padding: 0px 80px 0px 0px;
+        img{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}
+.relax-slider__info {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.relax-slider__info-item {
+    min-height: 200px;
+    margin-bottom: 66px;
+    position: relative;
+    padding: 0px 0px 0px 40px;
+}
+.relax-slider__info-subtitlewrap{
+    position: absolute;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    transform: rotate(-90deg);
+    top: 160px;
+    left: -106px;
+    width: 216px;
+    height: auto;
+    text-align: right;
+    white-space: nowrap;
+}
+.relax-slider__info-subtitle {
+    position: absolute;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    transform: rotate(-90deg);
+    top: 95px;
+    left: -106px;
+    width: 216px;
+    height: auto;
+    text-align: right;
+    white-space: nowrap;
+}
+.relax-slider__info-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    text-transform: uppercase;
+    width: 235px;
+    span{
+        display: block;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        text-align: right;
+        line-height: 16px;
+        font-size: 14px;
+        opacity: 0.5;
+        padding: 8px 15px 0 0px;
+    }
+}
+.relax-slider__btn {
+    text-align: center;
+    padding: 10px 0px 0 0px;
+}
