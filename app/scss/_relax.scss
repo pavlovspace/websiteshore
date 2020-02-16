@@ -1,5 +1,5 @@
 .relax {
-    padding: 160px 0 270px 0;
+    padding: 0px 0 270px 0;
     background-image: url(../img/travel-cup.png);
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -23,9 +23,6 @@
     text-align: right;
     width: 700px;
 }
-.descr{
-    padding: 40px 0 0 5px;
-}
 .relax-slider__descr {
     min-height: 320px;
     background-position: right center;
@@ -34,15 +31,28 @@
     margin: -230px 0px 0px 0px;
     .descr__head{
         position: relative;
-        padding: 0px 80px 0px 0px;
+        padding: 0px 215px 0px 0px;
         img{
             position: absolute;
             right: 0;
             top: 0;
         }
+        .relax__star-list{
+            position: absolute;
+            right: 0;
+            top: 0;
+            li{
+                display: inline-block;
+                margin: 0px 0px 0px -25px;
+            }
+            img{
+                position: static;
+            }
+        }
     }
 }
 .relax-slider__info {
+    padding: 50px 0px 0px 0px;
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -52,21 +62,6 @@
     margin-bottom: 66px;
     position: relative;
     padding: 0px 0px 0px 40px;
-}
-.relax-slider__info-subtitlewrap{
-    position: absolute;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    opacity: 0.5;
-    transform: rotate(-90deg);
-    top: 160px;
-    left: -106px;
-    width: 216px;
-    height: auto;
-    text-align: right;
-    white-space: nowrap;
 }
 .relax-slider__info-subtitle {
     position: absolute;

@@ -9,7 +9,7 @@ html{
 body{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
-    background-color: #905127;
+    background-color: #201208;
     color: #FFFFFF;
 }
 a{
@@ -68,7 +68,6 @@ ul, li{
     }
 }
 .suptitle-right {
-    background-color: rgba(74, 154, 246, 0.198);
     font-size: 22px;
     line-height: 32px;
     letter-spacing: 7.33333px;
@@ -103,6 +102,9 @@ ul, li{
 .descr {
     display: inline-block;
     padding: 0 0 0 5px;
+    margin: -15px 0 0 0;
+    background-color: rgba(74, 154, 246, 0.253);
+    border-radius: 20px;
 }
 .descr__head{
     font-weight: 800;
@@ -115,7 +117,7 @@ ul, li{
 }
 .btn{
     text-transform: uppercase;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
     font-size: 20px;
     line-height: 36px;
     font-weight: 400;

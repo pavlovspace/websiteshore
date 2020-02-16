@@ -23,9 +23,6 @@
     text-align: right;
     width: 700px;
 }
-.descr{
-    padding: 40px 0 0 5px;
-}
 .travel-slider__descr {
     min-height: 320px;
     background-position: right center;
@@ -43,6 +40,7 @@
     }
 }
 .travel-slider__info {
+    padding: 50px 0px 0px 0px;
     display: flex;
     justify-content: space-around;
     margin: 0;
