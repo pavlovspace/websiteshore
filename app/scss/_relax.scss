@@ -84,7 +84,8 @@
     line-height: 36px;
     text-transform: uppercase;
     width: 235px;
-    span{
+    position: relative;
+    .relax-pricing__span{
         display: block;
         font-weight: 400;
         text-transform: uppercase;
@@ -93,10 +94,103 @@
         line-height: 16px;
         font-size: 14px;
         opacity: 0.5;
-        padding: 8px 15px 0 0px;
+        padding: 8px 37px 0 0px;
+    }
+}
+.relax-slider__info-titleplus {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 185px;
+    position: relative;
+
+    .relax-pricing__span{
+        display: block;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        text-align: right;
+        line-height: 16px;
+        font-size: 14px;
+        opacity: 0.5;
+        padding: 8px 37px 0 0px;
     }
 }
 .relax-slider__btn {
     text-align: center;
     padding: 10px 0px 0 0px;
+}
+    // - - -licznik - - -//
+.quantity {
+  display: inline-block;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 800;
+    color: $blue;
+    padding-left: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: -5px 0 0 0;
+}
+
+.quantity input:focus {
+    outline: 0;
+}
+
+.quantity-nav {
+    position: static;
+    height: 42px;
+}
+
+.quantity-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    &:hover{
+        box-shadow: 0px 1px 5px $blue;
+        transition: .4s;
+    }
+}
+.slider-dots__clicks{
+    position: absolute;
+    bottom: 118px;
+    right: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: .20;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.quantity-button.quantity-up {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.quantity-button.quantity-down {
+    position: absolute;
+    top: 80px;
+    right: 50px;
 }

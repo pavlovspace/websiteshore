@@ -226,7 +226,7 @@
     left: -25px;
 }
 .slider-dots--br{
-    top: 230px;
+    top: 240px;
     left: -60px;
     &::before{
         content:"";
@@ -251,7 +251,7 @@
     top: 470px;
     left: 95px;
     .slider-dots__content{
-        transform: translateX(-92%);
+        transform: translateX(-91.9%);
         &::before{
             content:'';
             left: auto;
