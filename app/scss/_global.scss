@@ -114,40 +114,60 @@ ul, li{
         font-weight: 100;
     }
 }
-.btn{
+// - - - btn - - -// //background-color: rgba(74, 154, 246, 0.198);
+.btn {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    
+    display: block;
+    margin: 20px auto;
+    max-width: 180px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 20px 30px;
     text-transform: uppercase;
-    margin-bottom: 50px;
-    font-size: 20px;
-    line-height: 36px;
-    font-weight: 400;
-    padding: 0px 17px;
-    border: 2px solid $blue;
-    display: inline-block;
-    background: rgba(#1C2121, .50);
-    transition: .4s;
+    color: #FFFFFF;
+	box-shadow: $blue 0 0px 0px 2px inset;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0.226);
     span{
         font-weight: 100;
     }
     &:hover{
-        box-shadow: 0px 0px 30px $blue;
-        padding: 5px 25px;
+    color: #FFFFFF;
+    box-shadow: rgba(74, 154, 246, 0.541) 0 80px 0px 2px inset;
+    transition: .5s;
     }
 }
+// - - - button - - -//
 .button{
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    
+    display: block;
+    margin: 20px auto;
+    max-width: 180px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 20px 30px;
     text-transform: uppercase;
-    margin-bottom: 50px;
-    font-size: 20px;
-    line-height: 36px;
-    font-weight: 400;
-    padding: 5px 25px;
-    border: 2px solid $blue;
-    display: inline-block;
-    background: rgba(rgb(33, 97, 216), .50);
-    transition: .4s;
-    &:hover{
-        box-shadow: 0px 0px 30px $blue;
-        padding: 5px 25px;
-        border-right: none;
-        border-left: none;
+    color: #FFFFFF;
+    box-shadow: $blue 0 0px 0px 2px inset;
+    transition: .5s;
+    span{
+        font-weight: 100;
     }
+    &:hover{
+    box-shadow: $blue 0 0px 0px 40px inset;
+    transition: .5s;
+    }
+}
+.slider-arrows{
+    width: 30px;
 }

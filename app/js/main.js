@@ -37,7 +37,7 @@ $('.travel__slider').slick({
     nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt=""></img>',
 })
 
-$('.relax__slider').slick({
+$('.relax__slider, .shop__slider').slick({
     infinite: true,
     fade: true,
     prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg" alt=""></img>',
@@ -82,7 +82,11 @@ $('.quantity-button').on('click', function(){
     $('.summ').html('€' + summ);
 });
 
-    let summ  = $('.night').val() * $('.summ').data('night') + ($('.quest').val() -1) * $('.summ').data('quest');
-    $('.summ').html('€' + summ);
+let summ  = $('.night').val() * $('.summ').data('night') + ($('.quest').val() -1) * $('.summ').data('quest');
+$('.summ').html('€' + summ);
+
+$('.surfboard-box__circle').on('click', function(){
+    $(this).toggleClass('active')
+});
 
 });

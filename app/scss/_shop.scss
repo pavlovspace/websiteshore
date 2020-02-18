@@ -39,17 +39,6 @@
 .surfboard {
     position: relative;
 }
-.surfboard-box{
-    position: absolute;
-}
-.surfboard-box__circle{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .shop__extras {
     padding: 0px 0px 0px 150px;
 }
@@ -94,5 +83,87 @@
     sup{
         font-size: 18px;
         padding: 0px 0 0 2px;
+    }
+}
+.surfboard-box{
+    position: absolute;
+}
+.surfboard__position--1{
+    right: 40px;
+    top: 215px;
+}
+.surfboard__position--2{
+    left: 6px;
+    top: 313px;
+}
+.surfboard__position--3{
+    bottom: 70px;
+    left: 52px;
+    .surfboard-box__content{
+        padding-left: 20px;
+        padding-right: 95px;
+        top: -15px;
+        left: -400px;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 80px;
+            height: 1px;
+            background-color: #fff;
+            top: 50%;
+            right: 0;
+            left: auto;
+        }
+    }
+}
+.surfboard-box__circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #FFF;
+    cursor: pointer;
+    &.active{
+        .circle-row{
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+    }
+}
+.circle-row{
+    background-color: $blue;
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    & + .circle-row{
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+}
+.surfboard-box__circle.active + .surfboard-box__content{
+    display: block;
+}
+.surfboard-box__content{
+    display: none;
+    position: absolute;
+    width: 359px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 800;
+    padding-left: 104px;
+    top: -15px;
+    left: 40px;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 1px;
+        background-color: #fff;
+        left: 0;
+        top: 50%;
     }
 }
