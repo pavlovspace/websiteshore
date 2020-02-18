@@ -77,4 +77,12 @@ $('.quantity').each(function() {
 
 });
 
+$('.quantity-button').on('click', function(){
+    let summ  = $('.night').val() * $('.summ').data('night') + ($('.quest').val() -1) * $('.summ').data('quest');
+    $('.summ').html('€' + summ);
+});
+
+    let summ  = $('.night').val() * $('.summ').data('night') + ($('.quest').val() -1) * $('.summ').data('quest');
+    $('.summ').html('€' + summ);
+
 });

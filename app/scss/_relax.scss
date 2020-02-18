@@ -1,6 +1,6 @@
 .relax {
-    padding: 0px 0 270px 0;
-    background-image: url(../img/travel-cup.png);
+    padding: 0 0 270px 0;
+    background-image: url(../img/relax/Frangipani.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     .slider-arrows{
@@ -94,7 +94,7 @@
         line-height: 16px;
         font-size: 14px;
         opacity: 0.5;
-        padding: 8px 37px 0 0px;
+        padding: 8px 32px 0 0px;
     }
 }
 .relax-slider__info-titleplus {
@@ -142,7 +142,7 @@ input[type=number]
 .quantity input {
     font-size: 40px;
     line-height: 36px;
-    font-weight: 800;
+    font-weight: 400;
     color: $blue;
     padding-left: 20px;
     background-color: transparent;
