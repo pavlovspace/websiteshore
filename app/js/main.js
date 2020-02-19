@@ -89,4 +89,9 @@ $('.surfboard-box__circle').on('click', function(){
     $(this).toggleClass('active')
 });
 
+//---срабатывание бургера---//
+$('.menu-btn').on('click', function(){
+    $('.menu').toggleClass('active');
+})
+
 });
