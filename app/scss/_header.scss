@@ -124,6 +124,26 @@
         margin: 0px 0px 20px 0px;
     }
 }
+// --- menu burger ---//
+.menu-btn{
+    width: 60px;
+    position: absolute;
+    right: 20px;
+    top: 75px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-btn__inner{
+    width: 40px;
+}
+.menu-btn__line{
+    height: 5px;
+    width: 50px;
+    background-color: $blue;
+    margin-bottom: 10px;
+}
 .header__search{
     text-align: center;
     margin: 20px 0px 20px 0px;
@@ -140,7 +160,7 @@
         font-size: 16px;
         line-height: 19px;
         display: block;
-        margin: 17px 0px 30px 0px;
+        margin: 17px 0px 20px 0px;
     }
 }
 .header__location{
@@ -150,7 +170,7 @@
     letter-spacing: 1.1px;
     font-weight: 300;
     position: relative;
-    padding: 0px 25px 19px 0px;
+    padding: 0px 25px 15px 0px;
     margin: 0px 0px 47px 40px;
     &:before{
         content:"";
