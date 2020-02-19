@@ -1,6 +1,6 @@
 //---HEADER---//
 @media (max-width: 1440px) {
-    .logo{ 
+     .logo{ 
         img{ 
             width: 100px;
             margin: 0;
@@ -183,6 +183,9 @@
     }
 }
 @media (max-width: 1040px){
+    .menu-btn{
+        display: flex;
+    }
     .slider-dotshead{
         right: 0;
         left: 20px;

@@ -126,12 +126,12 @@
 }
 // --- menu burger ---//
 .menu-btn{
+    display: none;
     width: 60px;
     position: absolute;
     right: 20px;
     top: 75px;
     z-index: 20;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
