@@ -47,7 +47,7 @@ ul, li{
     max-width: 1920px;
     margin: 0 auto;
 }
-.suptitle-left{
+.suptitle-left {
     font-size: 22px;
     line-height: 32px;
     letter-spacing: 7.33333px;
@@ -60,7 +60,7 @@ ul, li{
     &::before{
         content: "";
         position: absolute;
-        width: 80px;
+        width: 50px;
         height: 1px;
         background-color: #fff;
         left: 0;

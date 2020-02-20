@@ -13,7 +13,7 @@ $('.slider-dotshead').slick({
     asNavFor: '.header__slider',
     responsive: [
         {
-          breakpoint: 1041,
+          breakpoint: 1040,
           settings: "unslick"
         },
     ]
@@ -27,7 +27,7 @@ $('.sport-slider').slick({
     asNavFor: '.slider-map',
     responsive: [
         {
-          breakpoint: 1210,
+          breakpoint: 1201,
           settings: {
             slidesToShow: 3,
           }
@@ -36,6 +36,13 @@ $('.sport-slider').slick({
           breakpoint: 1040,
           settings: {
             slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 720,
+          settings: {
+            slidesToShow: 1,
+            centerMode: true
           }
         },
     ]
@@ -49,7 +56,7 @@ $('.slider-map').slick({
     focusOnSelect: true,
     responsive: [
         {
-          breakpoint: 1040,
+          breakpoint: 1201,
           settings: {
             slidesToShow: 3,
           }
@@ -58,8 +65,16 @@ $('.slider-map').slick({
           breakpoint: 900,
           settings: {
             slidesToShow: 2,
+            centerMode: true
           }
         },
+        {
+            breakpoint: 720,
+            settings: {
+              slidesToShow: 1,
+              centerMode: true
+            }
+          },
     ]
 });
 
