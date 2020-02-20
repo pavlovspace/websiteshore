@@ -11,8 +11,13 @@ $('.slider-dotshead').slick({
     slidesToShow: 4,
     slidesToScroll: 4,
     asNavFor: '.header__slider',
-    focusOnSelect: true,
-}) 
+    responsive: [
+        {
+          breakpoint: 1041,
+          settings: "unslick"
+        },
+    ]
+});
 
 $('.sport-slider').slick({
     slidesToShow: 4,
@@ -20,7 +25,21 @@ $('.sport-slider').slick({
     prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg" alt=""></img>',
     nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt=""></img>',
     asNavFor: '.slider-map',
-})
+    responsive: [
+        {
+          breakpoint: 1210,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 1040,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+    ]
+});
 
 $('.slider-map').slick({
     slidesToShow: 8,
@@ -28,7 +47,21 @@ $('.slider-map').slick({
     arrows: false,
     asNavFor: '.sport-slider',
     focusOnSelect: true,
-})
+    responsive: [
+        {
+          breakpoint: 1040,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+    ]
+});
 
 $('.travel__slider').slick({
     infinite: true,
