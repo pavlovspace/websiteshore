@@ -45,6 +45,13 @@ $('.sport-slider').slick({
             centerMode: true
           }
         },
+        {
+          breakpoint: 435,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+          }
+        },
     ]
 });
 
