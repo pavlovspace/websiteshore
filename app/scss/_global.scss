@@ -102,7 +102,7 @@ ul, li{
     display: inline-block;
     padding: 0 0 0 5px;
     margin: -15px 0 0 0;
-    background-color: rgba(74, 154, 246, 0.253);
+    background: rgba(#1C2121, .20);
     border-radius: 20px;
 }
 .descr__head{
@@ -114,7 +114,7 @@ ul, li{
         font-weight: 100;
     }
 }
-// - - - btn - - -// //background-color: rgba(74, 154, 246, 0.198);
+// - - - btn - - -//
 .btn {
 	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);

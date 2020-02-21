@@ -1,4 +1,4 @@
-//---1440px---//
+                    //- - - 1440px - - -//
 @media (max-width: 1440px) {
     //header//
      .logo{ 
@@ -60,7 +60,10 @@
     }
      //header//
 }
-//---1366px---//
+
+
+
+                    //- - - 1366px - - -//
 @media (max-width: 1366px) {
      //header//
     .header__aside {
@@ -143,7 +146,9 @@
     }
      //header//
 }
-//---1340px---//
+
+
+                    //- - - 1340px - - -//
 @media (max-width: 1340px){
      //header//
     .header__search{
@@ -155,7 +160,7 @@
     }
     .suptitle-left{
         font-size: 16px;
-        padding: 0px 0 0px 65px;
+        padding: 0px 0px 0px 65px;
         &::before{
             content: "";
             position: absolute;
@@ -171,8 +176,44 @@
         margin-bottom: 20px;
     }
      //header//
+     //- -sport- -//
+     .travel-slider__subtitle {
+        background: rgba(#1C2121, .70);
+    }
+    //- - - -RELAX- - - -//
+    .relax-slider__subtitle {
+        background: rgba(#1C2121, .70);
+    }
 }
-//---1200px---//
+
+
+                    //- - - 1250px - - -//
+@media (max-width: 1250px){
+    //- - -TRAVEL- - -//
+    .travel-slider__descr {
+        padding: 160px 0px 0px 20px;
+    }
+        //- - - -RELAX- - - -//
+    .relax-slider__descr {
+        padding: 160px 0px 0px 20px;
+    }
+    .relax{
+        .title{
+            span{
+                font-size: 140px;
+                padding: 0 75px 40px 40px;
+            }
+            h3{
+                top: -28px;
+                right: 179px;
+                font-size: 80px;
+            }
+        }
+    }
+}
+
+
+                    //- - - 1200px - - -//
 @media (max-width: 1200px){
      //header//
     .header__map{
@@ -191,7 +232,7 @@
         line-height: 18px;
     }
      //header//
-     //SPORT//
+     // - -SPORT- -//
     .slider-map{
         max-width: 1000px;
         min-height: 515px;
@@ -203,7 +244,6 @@
         top: 461px;
         left: -125px;
     }
-    //SPORT//
     .slider-dots--au{
         top: 222px;
         left: 223px;
@@ -244,12 +284,84 @@
         display: none;
     }
     .suptitle-left{
-        padding: 0px 0 0px 65px;
+        padding: 0 0 0 65px;
     }
-    //SPORT//
-    //SPORT//
+    //- -SPORT- -//
+    //- - -TRAVEL- - -//
+    .travel-slider__info{
+        display: block;
+    }
+    .travel-slider__info-subtitle {
+        position: relative;
+        transform: rotate(0);
+        height: auto;
+        left: 0;
+        width: auto;
+        text-align: left;
+    }
+    .travel-slider__info-subtitlewrap{
+        position: relative;
+        transform: rotate(0);
+        height: auto;
+        top: 96px;
+        left: 0px;
+    }
+    .travel-slider__info-item {
+        margin-bottom: 20;
+        padding-left: 20px;
+        min-height: auto;
+    }
+    .travel-slider__info-title{
+        padding-left: 0;
+    }
+    .travel-slider__info-title span {
+        font-weight: 100;
+    }
+    .travel-slider__descr {
+        background-position: right -150px;
+    }
+    //- - -TRAVEL- - -//
+        //- - - -RELAX- - - -//
+    .slider-dots__clicks{
+        display: none;
+    }
+    .relax-slider__info{
+        display: block;
+    }
+    .relax-slider__info-subtitle {
+        position: relative;
+        transform: rotate(0);
+        height: auto;
+        left: 0;
+        width: auto;
+        text-align: left;
+    }
+    .relax-slider__info-item {
+        margin-bottom: 20;
+        padding-left: 20px;
+        min-height: auto;
+    }
+    .relax-slider__info-title{
+        padding-left: 0;
+    }
+    .relax-slider__descr {
+        background-position: right -150px;
+    }
+    .quantity-button.quantity-up {
+        top: 100px;
+    }
+    .quantity-button.quantity-down {
+        top: 100px;
+    }
+    .relax-slider__info-title .relax-pricing__span {
+        font-weight: 100;
+    }
+        //- - - -RELAX- - - -//
+    
 }
-//---1040px---//
+
+
+                    //- - - 1040px - - -//
 @media (max-width: 1040px){
      //header//
     .menu-btn{
@@ -311,20 +423,47 @@
         right: 50px;
     }
      //header//
-     //sport//
+     //- -SPORT- -//
      .slider-map .slick-list{
          overflow: hidden;
      }
-     //sport//
+     //- -SPORT- -//
+      //- - -RELAX- - -//
+     .relax{
+        .title{
+            span{
+                font-size: 100px;
+                padding: 0 75px 40px 40px;
+            }
+            h3{
+                top: -28px;
+                right: 179px;
+                font-size: 50px;
+            }
+        }
+    }
 }
+
+
+                    //- - - 1102px - - -//
 @media (max-width: 1102px){
     .slider-map{
         background-image: none;
         max-width: 100%;
         min-height: 280px;
     }
+    .relax .slider-arrows {
+        top: 225px;
+        background-color: rgba(#1C2121, .70);
+    }
+    .travel .slider-arrows {
+        top: 225px;
+        background-color: rgba(#1C2121, .70);
+    }
 }
-//---766px---//
+
+
+                    //- - - 766px - - -//
 @media (max-width: 766px){
      //header//
     .slider-item__info-title{
@@ -343,15 +482,25 @@
         left: 44px;
     }
      //header//
-    //SPORT//
+    //- -SPORT- -//
+    .sport{
+        padding: 160px 0 0px;
+    }
     .title{
         span{
             font-size: 80px;
-            padding: 0 80px 0 40px;
+            padding: 0 75px 40px 40px;
         }
         h3{
             top: -28px;
             right: 179px;
+            font-size: 40px;
+        }
+    }
+    .relax{
+         .title h3 {
+            top: -38px;
+            right: 213px;
             font-size: 40px;
         }
     }
@@ -375,11 +524,66 @@
             top: 50%;
         }
     }
-    //SPORT//
+    .travel-slider__top{
+        min-height: 750px;
+    }
+
+    //- -SPORT- -//
 }
 
 
-//---460px---//
+                    //- - - 700px - - -//
+@media (max-width: 700px){
+    //- - -TRAVEL- - -//
+    .travel-slider__descr{
+        background-image: none !important;
+    }
+        //- - -RELAX- - -//
+    .relax-slider__descr{
+        background-image: none !important;
+    }
+    .relax{
+        .title{
+            span{
+                font-size: 60px;
+                padding: 0 75px 40px 40px;
+            }
+            h3{
+                top: -38px;
+                right: 179px;
+                font-size: 40px;
+            }
+        }
+    }
+    .relax .title h3 {
+        right: 173px;
+    }
+}
+
+
+                    //- - - 550px - - -//
+ @media (max-width: 550px){
+    .travel-slider__subtitle{
+        padding: 100px 80px 0 0;     
+    }
+    .relax-slider__subtitle {
+        padding: 100px 80px 0 0; 
+    }
+    .relax{
+        .descr__head {
+            font-size: 30px;
+        }
+    }
+    .relax-slider__descr .descr__head .relax__star-list {
+        position: absolute;
+        right: 11px;
+        top: -19px;
+    }
+}
+
+
+
+                    //- - - 460px - - -//
 @media (max-width: 460px){
      //header//
     .dots-box__name{
@@ -421,7 +625,7 @@
         margin: 0px 0px -5px 0px;
     }
      //header//
-     //sport//
+     //- -SPORT- -//
      .suptitle-left {
         letter-spacing: 2px;
     }
@@ -434,7 +638,18 @@
         left: 0;
         top: 50%;
     }
+    .relax{
+        .descr__head {
+            font-size: 22px;
+        }
+    }
+    .subtitle__head {;
+        font-size: 21px;
+    }
 }
+
+
+                    //- - - 435px - - -//
 @media (max-width: 435px){
     .slider-map .slider-dots__content,
     .slider-map .slick-current .slider-dots__content{
@@ -445,9 +660,24 @@
     .slider-dots__content-title {
         font-size: 16px;
     }
+    .travel{
+        background-size: 200px;
+    }
+    .descr__head{
+        font-size: 27px;
+    }
+    .travel {
+        padding: 100px 0 270px 0;
+    }
+    .sport {
+        padding: 100px 0 0 0;
+    }
 } 
+
+
+                    //- - - 409px - - -//
 @media (max-width: 409px){
-     //sport//
+     //- -SPORT- -//
     .sport__subtitle .suptitle-left::before {
         content: "";
         position: absolute;
@@ -457,12 +687,45 @@
         left: 31px;
         top: 50%;
     }
+    .travel-slider__subtitle {
+        padding: 49px 80px 0 0;
+    }
+    .relax-slider__subtitle {
+        padding: 49px 80px 0 0;
+    }
+    .relax .relax-slider__descr .descr__head .relax__star-list {
+        position: absolute;
+        right: 22px;
+        top: -7px;
+    }
 }
+
+
+                    //- - - 375px - - -//
 @media (max-width: 375px){
     .slider-map .slider-dots__content,
     .slider-map .slick-current .slider-dots__content{
         display: block;
         width: 195px;
         padding: 28px 10px 0;
+    }
+    .descr__head{
+        font-size: 23px;
+    }
+    .relax{
+        .title{
+            span{
+                font-size: 40px;
+                padding: 0 75px 40px 40px;
+            }
+            h3{
+                top: -28px;
+                right: 179px;
+                font-size: 40px;
+            }
+        }
+    }
+    .relax .title h3 {
+        right: 63px;
     }
 }
