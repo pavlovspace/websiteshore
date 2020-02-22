@@ -796,6 +796,31 @@
 
                     //- - - 375px - - -//
 @media (max-width: 375px){
+    .suptitle-right::before {
+        content: "";
+        right: -100px;
+        top: 31%;
+    }
+    .travel{
+        .suptitle-right {
+            padding: 0 0 0px 0;;
+        }
+    }
+    .travel{
+        .title{
+            span {
+                font-size: 40px;
+                padding: 0 75px 40px 50px;
+            }
+            h3{
+                top: -8px;
+                right: 179px;
+                font-size: 40px;
+                right: 61px;
+                top: -47px;
+            }
+        }
+    }
     .slider-map .slider-dots__content,
     .slider-map .slick-current .slider-dots__content{
         display: block;
@@ -806,29 +831,36 @@
         font-size: 23px;
     }
     .relax{
+        .descr {
+            padding: 0px 0px 0px 0px;
+            margin: -75px 0 0 0;
+        }
+    }
+    .relax{
         .title{
             span{
                 font-size: 40px;
-                padding: 0 75px 40px 40px;
+                padding: 0 75px 40px 48px;
             }
             h3{
                 top: -8px;
                 right: 179px;
                 font-size: 40px;
+                right: 60px;
+                top: -47px;
             }
         }
-    }
-    .relax .title h3 {
-        right: 63px;
     }
             //- - -SHOP- - -//
     .shop__extras-box {
         text-align: center;
         width: 118px;
     }
-    .suptitle-right::before {
-        content: "";
-        display: none;
+    .shop{
+        .suptitle-right::before {
+            content: "";
+            display: none;
+        }
     }
     .suptitle-right {
         padding: 0 0 20px 0;
