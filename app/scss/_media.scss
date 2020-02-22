@@ -1,4 +1,15 @@
-                    //- - - 1440px - - -//
+                    //- - - 1500px - - -//
+@media (max-width: 1500px) {
+              //- - -SHOP- - -//
+   .shop__slider__btn{
+       .button{
+           margin: 40px 0 0 0;
+       }
+   }
+}
+
+
+//- - - 1440px - - -//
 @media (max-width: 1440px) {
     //header//
      .logo{ 
@@ -59,6 +70,20 @@
         }
     }
      //header//
+     //- - -SHOP- - -//
+     .shop__slider-inner{
+        display: block;
+     }
+     .shop__slider-info{
+        margin: 0 40px 0 0;
+        padding: 55px 0 55px 0;
+    }
+    .shop__slider{
+        padding: 0 0 0 20px;
+    }
+    .shop__slider-content {
+        padding: 0px 0px 0px 344px;
+    }
 }
 
 
@@ -357,7 +382,15 @@
         font-weight: 100;
     }
         //- - - -RELAX- - - -//
-    
+    .surfboard__position--3 .surfboard-box__content {
+        left: 60px;
+        padding-left: 0;
+    }
+    .surfboard__position--3 .surfboard-box__content::before {
+        content: "";
+        width: 20px;
+        left: -32px;
+    }
 }
 
 
@@ -441,6 +474,18 @@
                 font-size: 50px;
             }
         }
+    }
+    //- - - -SHOP- - - -//
+    .surfboard-box__content{
+        padding-left: 0;
+        top: 35px;
+        left: 0;
+        &::before{
+            display: none;
+        }
+    }
+    .shop__slider-content {
+        padding: 0px 0px 0px 0px;
     }
 }
 
@@ -529,6 +574,24 @@
     }
 
     //- -SPORT- -//
+        //- - - -SHOP- - - -//
+    .surfboard-box__content{
+        padding-left: 0;
+        top: 35px;
+        left: 0;
+        width: 270px;
+        &::before{
+        display: none;
+        }
+    }
+    .surfboard__position--1{
+        .surfboard-box__content{
+            left: -160px;
+        }
+    }
+    .shop__extras {
+        padding: 0px 0px 0px 80px;
+    }
 }
 
 
@@ -559,6 +622,25 @@
         right: 173px;
     }
 }
+
+
+                    //- - - 640px - - -//
+ @media (max-width: 640px){
+    .shop__slider-content{
+        display: block;
+    }
+    .shop__extras{
+        padding: 35px 0 0 0;
+    }
+    .surfboard__position--1 {
+        left: 180px;
+        top: 200px;
+    }
+    .footer{
+        text-align: center;
+        padding: 100px 0 34px;
+    }
+ }
 
 
                     //- - - 550px - - -//
@@ -646,6 +728,14 @@
     .subtitle__head {;
         font-size: 21px;
     }
+    //- - -SHOP- - -//
+    .shop__slider-content{
+        padding-left: 0;
+    }
+    .surfboard__position--2{
+        left: 3px;
+        top: 313px;
+    }
 }
 
 
@@ -662,6 +752,9 @@
     }
     .travel{
         background-size: 200px;
+    }
+    .relax {
+        background-size: 100px;
     }
     .descr__head{
         font-size: 27px;
@@ -719,7 +812,7 @@
                 padding: 0 75px 40px 40px;
             }
             h3{
-                top: -28px;
+                top: -8px;
                 right: 179px;
                 font-size: 40px;
             }
@@ -727,5 +820,28 @@
     }
     .relax .title h3 {
         right: 63px;
+    }
+            //- - -SHOP- - -//
+    .shop__extras-box {
+        text-align: center;
+        width: 118px;
+    }
+    .suptitle-right::before {
+        content: "";
+        display: none;
+    }
+    .suptitle-right {
+        padding: 0 0 20px 0;
+        font-size: 20px;
+    }
+    .descr__head-shop {
+        padding: 0;
+        font-size: 30px;
+    }
+    .shop{
+        .title span {
+            font-size: 66px;
+            padding: 0 130px 40px 40px;
+        }
     }
 }
