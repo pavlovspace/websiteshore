@@ -75,7 +75,8 @@
     }
     &__name{
         font-weight: 300;
-        line-height: 19px;
+        line-height: 34px;
+        font-size: 18px;
         color: #FFFFFF;
         opacity: 0.8;
     }
@@ -100,12 +101,12 @@
     color: #FFFFFF;
     opacity: 0.07;
     top: 0;
-    left: 0;
+    left: 23px;
     z-index: 4;
     transform: translateX(-20px);
 }
 .logo{
-    padding: 0px 0px 40px 0px;
+    padding: 0px 0px 50px 0px;
 }
 .menu {
     &__list {
@@ -121,7 +122,7 @@
         letter-spacing: 3px;
         font-weight: 500;
         padding: 5px 0px 0px 0px;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 47px 0px;
     }
 }
 // --- menu burger ---//
@@ -144,25 +145,6 @@
     background-color: rgba(0, 119, 255, 0.589);
     margin-bottom: 10px;
 }
-.header__search{
-    text-align: center;
-    margin: 20px 0px 20px 0px;
-}
-.header__date{
-    text-align: center;
-    font-size: 72px;
-    line-height: 64px;
-    text-transform: uppercase;
-    font-weight: 800;
-    span{
-        letter-spacing: 1.4px;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 19px;
-        display: block;
-        margin: 17px 0px 20px 0px;
-    }
-}
 .header__location{
     text-align: center;
     font-size: 12px;
@@ -170,8 +152,8 @@
     letter-spacing: 1.1px;
     font-weight: 300;
     position: relative;
-    padding: 0px 25px 15px 0px;
-    margin: 0px 0px 47px 40px;
+    padding: 0px 25px 0px 0px;
+    margin: 0px 0px 0px 40px;
     &:before{
         content:"";
         position: absolute;

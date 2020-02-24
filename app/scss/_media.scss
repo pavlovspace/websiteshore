@@ -31,25 +31,6 @@
     .menu{
         padding: 0px 0 0 0;
     }
-    .header__search{
-        padding: 0 0 8px 0;
-    }
-    .header__date{
-        font-size: 60px;
-    }
-    .header__search{
-        margin: 0;
-        padding: 0;
-    }
-    .header__date{
-        font-size: 50px;
-        span{
-            font-size: 14px;
-            padding: 0;
-            margin: 0;
-            padding: 0;
-        }
-    }
     .header__location{
         padding: 0 0 0 20px;
         margin: 0;
@@ -113,19 +94,6 @@
             padding: 15px;
         }
     }
-    .header__search{
-        padding: 33px 15px 15px;
-        background-color: rgba(0, 119, 255, 0.089);
-        height: 123px;
-    }
-    .header__date{
-        padding: 15px;
-        background-color: rgba(0, 119, 255, 0.089);
-        height: 123px;
-        span{
-            width: 70px;
-        }
-    }
     .header__location{
         padding: 50px 10px 0 17px;
         left: 0px;
@@ -176,9 +144,6 @@
                     //- - - 1340px - - -//
 @media (max-width: 1340px){
      //header//
-    .header__search{
-        padding: 45px 15px 15px;
-    }
     .slider-item__info{
         position: absolute;
         bottom: 70px;
@@ -417,12 +382,6 @@
         line-height: 16px;
     }
     .header__arrows{
-        display: none;
-    }
-    .header__search{
-       display: none;
-    }
-    .header__date{
         display: none;
     }
     .header__location{

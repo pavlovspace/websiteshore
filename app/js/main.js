@@ -9,14 +9,9 @@ $('.header__slider').slick({
 });
 $('.slider-dotshead').slick({
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
+    arrows: false,
     asNavFor: '.header__slider',
-    responsive: [
-        {
-          breakpoint: 1040,
-          settings: "unslick"
-        },
-    ]
 });
 
 $('.sport-slider').slick({
