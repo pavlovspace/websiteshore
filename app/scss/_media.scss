@@ -173,6 +173,7 @@
 }
 
 
+
                     //- - - 1250px - - -//
 @media (max-width: 1250px){
     //- - -TRAVEL- - -//
@@ -425,8 +426,7 @@
         align-items: center;
         transition: all .6s;
         &.active{
-            transform: translateX(0);
-            left: 205px;
+            transform: translateX(98%);
         }
     }
     .menu__list{
