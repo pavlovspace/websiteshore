@@ -367,10 +367,12 @@
     .relax .slider-arrows {
         top: 225px;
         background-color: rgba(#1C2121, .70);
+        border-radius : 5px;
     }
     .travel .slider-arrows {
         top: 225px;
         background-color: rgba(#1C2121, .70);
+        border-radius : 5px;
     }
 }
 
@@ -420,7 +422,7 @@
         right: 0;
         left: 0;
         bottom: 0;
-        transform: translateX(100%);
+        transform: translateX(98%);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -460,16 +462,19 @@
      }
      //- -SPORT- -//
       //- - -RELAX- - -//
+      .relax{
+          overflow: hidden;
+      }
      .relax{
         .title{
             span{
-                font-size: 100px;
-                padding: 0 75px 40px 40px;
+                font-size: 140px;
+                padding: 20px 75px 40px 40px;
             }
             h3{
-                top: -28px;
+                top: 0;
                 right: 179px;
-                font-size: 50px;
+                font-size: 80px;
             }
         }
     }
@@ -525,9 +530,14 @@
             font-size: 40px;
         }
     }
+    .travel h3 {
+        top: -28px;
+        right: 211px;
+        font-size: 40px;
+    }
     .relax{
          .title h3 {
-            top: -38px;
+            top: 0px;
             right: 213px;
             font-size: 40px;
         }
@@ -591,12 +601,11 @@
     .relax{
         .title{
             span{
-                font-size: 60px;
-                padding: 0 75px 40px 40px;
+                font-size: 70px;
+                padding: 38px 21px 40px 40px;
             }
             h3{
-                top: -38px;
-                right: 179px;
+                top: 0px;
                 font-size: 40px;
             }
         }
@@ -687,7 +696,7 @@
             padding: 32px 20px 0 0px;
         }
     }
-}
+ }
 
 
 
@@ -804,6 +813,12 @@
         content: "";
         display: none;
     }
+    .relax-slider__descr .descr__head .relax__star-list img {
+        display: none;
+    }
+    .relax-slider__descr .descr__head {
+        padding: 0px 114px 0px 0px;
+    }
 }
 
 
@@ -812,6 +827,9 @@
     .header__title {
         font-size: 60px;
         line-height: 50px;
+    }
+    .suptitle-left {
+        font-size: 11px;
     }
     .header{
         .suptitle-left {
@@ -828,23 +846,37 @@
     }
     .travel{
         .suptitle-right {
-            padding: 0 0 0px 0;;
+            padding: 0 0 0 0;
         }
     }
     .travel{
         .title{
             span {
-                font-size: 40px;
-                padding: 0 75px 40px 50px;
+                font-size: 65px;
+                padding: 24px 75px 40px 50px;
             }
             h3{
-                top: -8px;
-                right: 179px;
                 font-size: 40px;
-                right: 61px;
-                top: -47px;
+                right: 164px;
+                top: -13px;
             }
         }
+    }
+    .relax{
+        .title{
+            span {
+                font-size: 55px;
+                padding: 42px 75px 40px 50px;
+            }
+            h3{
+                font-size: 40px;
+                right: 154px;
+                top: -13px;
+            }
+        }
+    }
+    .relax .title h3 {
+        top: 0;
     }
     .slider-map .slider-dots__content,
     .slider-map .slick-current .slider-dots__content{
@@ -861,21 +893,6 @@
             margin: -75px 0 0 0;
         }
     }
-    .relax{
-        .title{
-            span{
-                font-size: 40px;
-                padding: 0 75px 40px 48px;
-            }
-            h3{
-                top: -8px;
-                right: 179px;
-                font-size: 40px;
-                right: 60px;
-                top: -47px;
-            }
-        }
-    }
             //- - -SHOP- - -//
     .shop__extras-box {
         text-align: center;
@@ -888,7 +905,7 @@
         }
     }
     .suptitle-right {
-        padding: 0 0 20px 0;
+        padding: 0;
         font-size: 20px;
     }
     .descr__head-shop {
