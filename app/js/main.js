@@ -12,6 +12,20 @@ $('.slider-dotshead').slick({
     slidesToScroll: 1,
     arrows: false,
     asNavFor: '.header__slider',
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 350,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+    ]
 });
 
 $('.sport-slider').slick({
