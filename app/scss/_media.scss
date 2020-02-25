@@ -565,6 +565,21 @@
     .travel-slider__top{
         min-height: 750px;
     }
+    .relax{
+        .title{
+            span{
+                font-size: 70px;
+                padding: 38px 21px 40px 40px;
+            }
+            h3{
+                top: 0px;
+                font-size: 40px;
+            }
+        }
+    }
+    .relax .title h3 {
+        right: 173px;
+    }
 
     //- -SPORT- -//
         //- - - -SHOP- - - -//
@@ -597,21 +612,6 @@
         //- - -RELAX- - -//
     .relax-slider__descr{
         background-image: none !important;
-    }
-    .relax{
-        .title{
-            span{
-                font-size: 70px;
-                padding: 38px 21px 40px 40px;
-            }
-            h3{
-                top: 0px;
-                font-size: 40px;
-            }
-        }
-    }
-    .relax .title h3 {
-        right: 173px;
     }
 }
 
