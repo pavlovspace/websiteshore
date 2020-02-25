@@ -420,13 +420,13 @@
         right: 0;
         left: 0;
         bottom: 0;
-        transform: translateX(-210%);
+        transform: translateX(100%);
         display: flex;
         justify-content: center;
         align-items: center;
         transition: all .6s;
         &.active{
-            transform: translateX(98%);
+            transform: translateX(-207%);
         }
     }
     .menu__list{
