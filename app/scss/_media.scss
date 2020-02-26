@@ -532,15 +532,8 @@
     }
     .travel h3 {
         top: -28px;
-        right: 211px;
+        right: 208px;
         font-size: 40px;
-    }
-    .relax{
-         .title h3 {
-            top: 0px;
-            right: 213px;
-            font-size: 40px;
-        }
     }
     .subtitle__head{
         display: block;
@@ -571,16 +564,15 @@
                 font-size: 70px;
                 padding: 38px 21px 40px 40px;
             }
-            h3{
-                top: 0px;
-                font-size: 40px;
-            }
         }
     }
-    .relax .title h3 {
-        right: 173px;
-    }
-
+    .relax{
+        .title h3 {
+           top: 6px;
+           font-size: 40px;
+           right: 169px;
+       }
+   }
     //- -SPORT- -//
         //- - - -SHOP- - - -//
     .surfboard-box__content{
@@ -600,6 +592,13 @@
     .shop__extras {
         padding: 0px 0px 0px 80px;
     }
+    .shop{
+        .title h3 {
+           top: -28px;
+           font-size: 40px;
+           right: 169px;
+       }
+   }
 }
 
 
