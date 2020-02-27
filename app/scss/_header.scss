@@ -123,6 +123,11 @@
         font-weight: 500;
         padding: 5px 0px 0px 0px;
         margin: 0px 0px 47px 0px;
+        &:hover{
+            font-size: 14px;
+            border-top: 2px solid $blue;
+            transition: .2s;
+        }
     }
 }
 // --- menu burger ---//

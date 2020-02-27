@@ -153,11 +153,11 @@ $('.surfboard-box__circle').on('click', function(){
     $(this).toggleClass('active')
 });
 
-//---срабатывание бургера---//
+//срабатывание бургера
 $('.menu-btn').on('click', function(){
     $('.menu').toggleClass('active');
 });
-//---parallax---//
+//parallax
 $(window).scroll(function(event) {
   let s=$(this).scrollTop();
   let w=$(this).outerWidth();
@@ -182,4 +182,14 @@ $(window).scroll(function(event) {
   let z_4=1+(w*0.00001*p_b);
   $('.parallax__aqua__3').css('transform','translate3d(0'+hr_2+'px,0,0) scale('+z_4+')');
 });
+ //Płynne przewijanie strony – smooth scrolling
+$('a[href^="#"]').click(function () { 
+  elementClick = $(this).attr("href");
+ destination = $(elementClick).offset().top;
+ {
+ $('html,body').animate( { scrollTop: destination }, 1000);
+ } 
+ return false;
+});
+
 });

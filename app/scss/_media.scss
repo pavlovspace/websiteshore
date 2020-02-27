@@ -430,6 +430,13 @@
         &.active{
             transform: translateX(-207%);
         }
+        span{
+            &:hover{
+                font-size: 14px;
+                border-top: 2px solid rgb(255, 255, 255);
+                transition: .2s;
+            }
+        }
     }
     .menu__list{
         background-color: $blue;
