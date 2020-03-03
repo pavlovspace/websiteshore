@@ -1,3 +1,26 @@
+.travel{
+    .title{
+        text-transform: uppercase;
+        span{
+            display: inline-block;
+            position: relative;
+            font-size: 200px;
+            font-weight: 800;
+            color: #ffffff10;
+            transform: translateX(-40px);
+        }
+        h3{
+            border-top: 1px solid $blue;
+            border-bottom: 1px solid $blue;
+            position: absolute;
+            top: 0;
+            right: 280px;
+            font-size: 80px;
+            margin: 0;
+            color: #fff;
+        }
+    } 
+}
 .travel {
     padding: 160px 0 270px 0;
     background-image: url(../img/travel-cup.png);
@@ -11,7 +34,7 @@
     background-repeat: no-repeat;
     background-position: top left;
     min-height: 813px;
-    background-size: 1370px;
+    background-size: 90%;
 }
 .travel-slider__subtitle {
     display: flex;

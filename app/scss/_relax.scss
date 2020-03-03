@@ -1,4 +1,86 @@
-.relax {
+.header-price{
+    height: 88vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.relax{
+    .title{
+        text-transform: uppercase;
+        span{
+            display: inline-block;
+            position: relative;
+            font-size: 200px;
+            font-weight: 800;
+            color: #ffffff10;
+            transform: translateX(-50px);
+        }
+        h3{
+            border-top: 1px solid $blue;
+            border-bottom: 1px solid $blue;
+            position: absolute;
+            top: 0;
+            right: 270px;
+            font-size: 80px;
+            margin: 0;
+            color: #fff;
+        }
+    } 
+}
+.relax-panel__collapse{
+    display: none;
+}
+.relax-panel__heading {
+    p{
+        padding: 0;
+        margin: 0;
+    }
+    position: relative;
+    font-weight: 800;
+    font-size: 32px;
+    text-transform: uppercase;
+    background-color: rgba(142, 142, 144, 0.103);
+    padding: 10px 40px 10px 105px;
+    margin: 30px 0 30px 0;
+    transition: 0.5S;
+    ::after{
+        content: "";
+        background-image: url(../img/Down-Arrows.svg);
+        left: 605px;
+        top: 16px;
+        width: 30px; 
+        height: 30px; 
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 0.5s;
+    }
+}
+.relax-panel{
+    position: relative;
+    .slider-dots__clicks{
+        position: absolute;
+        top: 15px;
+        left: 635px;
+    }
+}
+.relax-panel__heading.in p::after{
+    transform: rotate(180deg);
+}
+.relax-panel__heading.in{
+    background-color: $blue;
+}
+.collapse-body {
+    font-size: 18px;
+    opacity: 0.5;
+    padding: 10px 40px 10px 105px;
+    line-height: 2;
+}
+.relax__arrows{
+    padding: 40px 0;
+    text-align: center;
+}
+.relax-slider__btn {
     padding: 0 0 270px 0;
     background-image: url(../img/relax/Frangipani.png);
     background-position: bottom right;
@@ -9,11 +91,11 @@
 }
 .relax-slider__top {
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: center center;
     min-height: 813px;
-    background-size: 1370px;
+    background-size: cover;
 }
-.relax-slider__subtitle {
+.relax-subtitle {
     display: flex;
     justify-content: flex-end;
     padding: 132px 80px 0 0;
@@ -23,31 +105,38 @@
     text-align: right;
     width: 700px;
 }
+.price-descr{
+    .descr{
+        background: none;
+        padding: 0 0 0 107px;
+    }
+}
 .relax-slider__descr {
     min-height: 320px;
     background-position: right center;
     background-repeat: no-repeat;
     padding: 160px 0px 0px 130px;
     margin: -230px 0px 0px 0px;
-    .descr__head{
-        position: relative;
-        padding: 0px 215px 0px 0px;
-        img{
-            position: absolute;
-            right: 0;
-            top: 0;
+}
+.descr__head {
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    img{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .relax__star-list { 
+        display: flex;
+        position: absolute;
+        left: 292px;
+        top: -7px;
+        li{
+            display: inline-block;
+            margin: 0px 0px 0px 0px;
         }
-        .relax__star-list{
-            position: absolute;
-            right: 0;
-            top: 0;
-            li{
-                display: inline-block;
-                margin: 0px 0px 0px -25px;
-            }
-            img{
-                position: static;
-            }
+        img{
+            position: static;
         }
     }
 }
@@ -63,7 +152,7 @@
     position: relative;
     padding: 0px 0px 0px 40px;
 }
-.relax-slider__info-subtitle {
+.relax-slider__info-subtitle  {
     position: absolute;
     font-size: 18px;
     line-height: 22px;
@@ -118,11 +207,13 @@
         padding: 8px 37px 0 0px;
     }
 }
+
 .relax-slider__btn {
     text-align: center;
-    padding: 10px 0px 0 0px;
+    padding: 191px 0px 0 0px;
 }
-    // - - -licznik - - -//
+
+    // - - - kalkulator - - -//
 .quantity {
   display: inline-block;
 }
@@ -194,3 +285,4 @@ input[type=number]
     top: 80px;
     right: 50px;
 }
+

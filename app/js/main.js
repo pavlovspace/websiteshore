@@ -3,6 +3,9 @@ $(function(){
 $('.header__slider').slick({
     infinite: true,
     fade: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 1000,
     prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg" alt=""></img>',
     nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt=""></img>',
     asNavFor: '.slider-dotshead',
@@ -31,6 +34,9 @@ $('.slider-dotshead').slick({
 $('.sport-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 1000,
     prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg" alt=""></img>',
     nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt=""></img>',
     asNavFor: '.slider-map',
@@ -99,15 +105,28 @@ $('.travel__slider').slick({
     fade: true,
     prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg" alt=""></img>',
     nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt=""></img>',
-})
+});
 
-$('.relax__slider, .shop__slider').slick({
+$('.shop__slider').slick({
     infinite: true,
     fade: true,
     prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg" alt=""></img>',
     nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt=""></img>',
-})
+});
 
+//Relax slideshow
+$(document).ready(() => {
+  $('#slideshow .relax__slider').slick({
+    autoplay: true,
+    fade: true,
+    autoplaySpeed: 2000,
+    speed: 1000,
+    prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg" alt=""></img>',
+    nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt=""></img>',
+  });
+});
+
+//kalkulator
 $('<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="img/relax/plus.svg" alt=""></div><div class="quantity-button quantity-down"><img src="img/relax/minus.svg" alt=""></div></div>').insertAfter('.quantity input');
 $('.quantity').each(function() {
   var spinner = $(this),
@@ -149,6 +168,16 @@ $('.quantity-button').on('click', function(){
 let summ  = $('.night').val() * $('.summ').data('night') + ($('.quest').val() -1) * $('.summ').data('quest');
 $('.summ').html('€' + summ);
 
+//kalkulator2
+$('.quantity-button').on('click', function(){
+  let summ2  = $('.night2').val() * $('.summ2').data('night2') + ($('.quest2').val() -1) * $('.summ2').data('quest2');
+  $('.summ2').html('€' + summ2);
+});
+
+let summ2  = $('.night2').val() * $('.summ2').data('night2') + ($('.quest2').val() -1) * $('.summ2').data('quest2');
+$('.summ2').html('€' + summ2);
+
+//shop circle'
 $('.surfboard-box__circle').on('click', function(){
     $(this).toggleClass('active')
 });
@@ -157,6 +186,7 @@ $('.surfboard-box__circle').on('click', function(){
 $('.menu-btn').on('click', function(){
     $('.menu').toggleClass('active');
 });
+
 //parallax
 $(window).scroll(function(event) {
   let s=$(this).scrollTop();
@@ -191,5 +221,13 @@ $('a[href^="#"]').click(function () {
  } 
  return false;
 });
+
+//relax-panel__heading
+$(document).ready(function () {
+  $('.relax-panel__heading').click(function () {
+    $(this).toggleClass('in').next().slideToggle();
+  });
+});
+
 
 });
