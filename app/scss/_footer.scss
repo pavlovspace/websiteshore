@@ -1,15 +1,25 @@
 .footer{
-    text-align: center;
-    padding: 285px 0 34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+    padding: 5px 0 5px;
+    background-color: rgba(142, 142, 144, 0.103);;
     img{
         width: 100px;
     }
+    a{
+        text-transform: uppercase;
+        padding-right: 10px;
+        &:hover{
+            color: $blue;
+            transition: .3s;
+        }
+    }
 }
-.footer__copy{
-    padding: 27px 0 0 0;
+.footer__cop{
     font-weight: 300;
     font-size: 12px;
-    line-height: 14px;
     opacity: 0.5;
     letter-spacing: 1.5px;
 }
