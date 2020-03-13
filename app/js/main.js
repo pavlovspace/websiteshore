@@ -182,9 +182,12 @@ $('.surfboard-box__circle').on('click', function(){
     $(this).toggleClass('active')
 });
 
-//срабатывание бургера
-$('.menu-btn').on('click', function(){
-    $('.menu').toggleClass('active');
+//header__burger
+$(document).ready(function(){
+  $('.header__burger, .list-item').click(function(event){
+    $('.header__burger, .header__menu').toggleClass('active');
+    $('body').toggleClass('lock');
+  });
 });
 
 //parallax

@@ -133,6 +133,7 @@ ul, li{
 	box-shadow: $blue 0 0px 0px 2px inset;
     transition: .5s;
     background-color: rgba(0, 0, 0, 0.226);
+    outline: none;
     span{
         font-weight: 100;
     }
@@ -160,6 +161,7 @@ ul, li{
     color: #FFFFFF;
     box-shadow: $blue 0 0px 0px 2px inset;
     transition: .5s;
+    outline: none;
     span{
         font-weight: 100;
     }
@@ -169,5 +171,17 @@ ul, li{
     }
 }
 .slider-arrows{
+    position: absolute;
+    top: 40px;
+    right: 106px;
+    cursor: pointer;
+    z-index: 4;
     width: 30px;
+    &:hover{
+        transition: .3s;
+        transform: scale(1.3);
+    }
+}
+.slider-arrows__left{
+    right: 151px;
 }
