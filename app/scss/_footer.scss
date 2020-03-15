@@ -4,11 +4,15 @@
     margin-top: 120px;
     padding: 5px 0 5px;
     background-color: rgba(142, 142, 144, 0.103);
+    img{
+        max-width: 100px;
+    }
     a{
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 300;
+    padding-right: 106px;
         &:hover{
             color: $blue;
             transition: .3s;
@@ -19,16 +23,12 @@
         padding-right: 30px;
     }
 }
-.footer__logo{
-    padding-right: 106px;
-    img{
-        width: 100px;
-    }
-}
+
 .footer-item{
     padding-left: 106px;
 }
 .footer__cop{
+    padding-right: 176px;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 300;

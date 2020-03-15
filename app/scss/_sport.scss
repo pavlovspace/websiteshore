@@ -222,16 +222,6 @@
 .slider-dots--br{
     top: 240px;
     left: -60px;
-    &::before{
-        content:"";
-        position: absolute;
-        background: url(../img/mini-icon.png);
-        width: 14px;
-        height: 17px;
-        background-size: cover;
-        right: 150px;
-        top: -25px;
-    }
 }
 .slider-dots--cu{
     top: 550px;

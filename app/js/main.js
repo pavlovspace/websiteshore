@@ -232,5 +232,25 @@ $(document).ready(function () {
   });
 });
 
+//popup in relax
+$(document).ready(function(){
+  $('.btn, .form-close').click(function(event){
+    $('.contact-form').toggleClass('active');
+    $('body').toggleClass('lock');
+  });
+});
+
+
+$('.btn').click(function() {
+  $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .header__item, .logo, .header__burger').css('filter','blur(5px)');
+  $('.contact-form').fadeIn();
+  $('.contact-form').addClass('disabled');
+});
+
+$('.form-close').click(function() {
+  $('.contact-form').fadeOut();
+  $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .header__item, .logo, .header__burger').css('filter', 'none');
+});
+
 
 });

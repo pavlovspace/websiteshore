@@ -42,7 +42,7 @@
     text-transform: uppercase;
     background-color: rgba(142, 142, 144, 0.103);
     padding: 10px 40px 10px 105px;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 0 0;
     transition: 0.5S;
     ::after{
         content: "";
@@ -84,7 +84,11 @@
     }
 }
 .relax-slider__btn {
-    padding: 0 0 270px 0;
+    .btn{
+        cursor: pointer;
+    }
+    text-align: center;
+    padding: 191px 0px 30px 0px;
     background-image: url(../img/relax/Frangipani.png);
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -209,11 +213,6 @@
         opacity: 0.5;
         padding: 8px 37px 0 0px;
     }
-}
-
-.relax-slider__btn {
-    text-align: center;
-    padding: 191px 0px 0 0px;
 }
 
     // - - - kalkulator - - -//
