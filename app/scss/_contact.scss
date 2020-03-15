@@ -1,0 +1,36 @@
+.contact{
+    .header-wrap:before{
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(3, 3, 17, 0.671);
+        backdrop-filter: blur(20px);
+        z-index: 2;
+    }
+}
+.map{
+    .title{
+        margin-top: 50px;
+        margin-bottom: 170px;
+    }
+}
+.map-info__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.068);
+}
+.block__left, .block__right{
+    font-size: 28px;
+    line-height: 2;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.form-inputs{
+    width: 700px;
+}
