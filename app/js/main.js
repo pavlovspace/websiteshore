@@ -103,6 +103,10 @@ $('.slider-map').slick({
 $('.travel__slider').slick({
     infinite: true,
     fade: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 1000,
     prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg" alt=""></img>',
     nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt=""></img>',
 });
