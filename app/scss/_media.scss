@@ -6,6 +6,9 @@
            margin: 40px 0 0 0;
        }
    }
+   .header__menu.active {
+    padding: 221px 10px 50px 418px;
+   }
 }
 
 
@@ -15,8 +18,6 @@
     .header__title{
         font-size: 125px;
         line-height: 108px;
-        top: 15px;
-        left: 21px;
     }
      //header//
     //- - -SHOP- - -//
@@ -40,6 +41,9 @@
                     //- - - 1366px - - -//
 @media (max-width: 1366px) {
      //header//
+     .header__menu.active {
+        padding: 221px 10px 50px 260px;
+     }
     .header__aside {
         position: absolute;
         border-right: none;
@@ -295,6 +299,9 @@
 
                     //- - - 1102px - - -//
 @media (max-width: 1102px){
+    .header__menu.active {
+        padding: 221px 10px 50px 180px;
+    }
     .slider-map{
         background-image: none;
         max-width: 100%;
@@ -318,6 +325,11 @@
                     //- - - 1040px - - -//
 @media (max-width: 1040px){
      //header//
+     .header__list li{
+        &:hover .sub-header__list{
+            display: none;
+        }
+    }
      .header__aside{
          background: none;
      }
@@ -402,6 +414,21 @@
                     //- - - 766px - - -//
 @media (max-width: 766px){
      //header//
+     .header-wrap__body{
+        height: 90px;
+    }
+    .header__item span{
+        display: none;
+    }
+    .logo img{
+        max-width: 70px;
+    }
+    .header__menu.active {
+        padding: 180px 10px 50px 115px;
+    }
+    .header__menu span {
+        font-size: 44px;
+    }
      .slider-dotshead {
         padding: 0 0 0 55px;
     }
@@ -419,6 +446,10 @@
     .dots-box {
         width: 110px;
         left: 44px;
+    }
+    .header__title {
+        font-size: 90px;
+        top: 89px;
     }
      //header//
     //- -SPORT- -//
@@ -608,6 +639,15 @@
                     //- - - 460px - - -//
 @media (max-width: 460px){
      //header//
+     .header__menu.active {
+        padding: 160px 10px 50px 60px;
+    }
+    .header__menu span {
+        font-size: 30px;
+    }
+    .header__location {
+        font-size: 24px;
+    }
     .dots-box {
         width: 80px;
     }
@@ -618,8 +658,8 @@
         margin: 0 auto;
     }
     .header__title{
-        font-size: 78px;
-        line-height: 72px;
+        font-size: 65px;
+        line-height: 63px;
     }
     .slider-item__info-title{
         font-size: 30px;
@@ -731,7 +771,7 @@
 @media (max-width: 375px){
     .header__title {
         font-size: 60px;
-        line-height: 50px;
+        line-height: 57px;
     }
     .suptitle-left {
         font-size: 11px;

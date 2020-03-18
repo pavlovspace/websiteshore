@@ -2,9 +2,12 @@
     background-image: url(../img/shop/Shop-Image.png);
     background-position: right center;
     background-repeat: no-repeat;
+    .title h3 {
+        right: 186px;
+    }
 }
 .shop__slider {
-    padding: 0 0 0 132px;
+    padding: 0 0 0 106px;
 }
 .shop__slider-item {
 }

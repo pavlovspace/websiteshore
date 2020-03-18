@@ -7,24 +7,11 @@
         top: 225px;
     }
     .title{
-        text-transform: uppercase;
         span{
-            display: inline-block;
-            position: relative;
-            font-size: 200px;
-            font-weight: 800;
-            color: #ffffff10;
             transform: translateX(-40px);
         }
         h3{
-            border-top: 1px solid $blue;
-            border-bottom: 1px solid $blue;
-            position: absolute;
-            top: 0;
-            right: 280px;
-            font-size: 80px;
-            margin: 0;
-            color: #fff;
+            right: 306px;
         }
     } 
 }
@@ -90,8 +77,8 @@
 .travel-slider__subtitle {
     display: flex;
     justify-content: flex-end;
-    padding: 132px 106px 0 0;
-    margin: 0;
+    padding: 0 106px 170px 0;
+    margin-top: -80px;
 }
 .subtitle{
     text-align: right;
@@ -101,7 +88,7 @@
     min-height: 320px;
     background-position: right center;
     background-repeat: no-repeat;
-    padding: 160px 0px 0px 130px;
+    padding: 160px 0px 0px 106px;
     margin: -50px 0px 0px 0px;
     .descr__head{
         position: relative;
