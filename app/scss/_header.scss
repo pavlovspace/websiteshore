@@ -114,7 +114,7 @@ body.lock{
     background-color: rgba(3, 24, 92, 0.877);
     backdrop-filter: blur(10px);
     padding: 221px 10px 50px 537px;
-    transition: all .6s ease 0s;
+    transition: all .6s;
     a{
         color: #fff;
     }
@@ -130,23 +130,27 @@ body.lock{
     }
 }
 .header__list li{
+    transition: all .2s;
     &:hover{
         transform: scale(1.1);
         transition: .5s;
     }
 }
 .sub-header__list li a{
+    transition: all .2s;
     &:hover{
         transform: scale(1.1);
-        transition: .5s;
     }
 }
 .header__list li{
+    transition: all .6s;
     &:hover .sub-header__list{
+        transition: all .6s;
         display: block;
     }
 }
 .header__list {
+    transition: all .6s;
     display: inline-block;
     position: relative;
     z-index: 2;

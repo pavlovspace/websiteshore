@@ -175,3 +175,25 @@
     font-size: 18px;
     padding-bottom: 10px;
 }
+.shop{
+    .contact-form{
+      display: none;
+      top: 625%;
+      background-color: rgba(2, 12, 22, 0.65);
+    }
+    .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+        padding: 0.5em 3em;
+    }
+    #name{
+        margin-bottom: 40px; 
+    }
+    #email{
+        margin-bottom: 40px;
+    }
+    .shop__slider__btn {
+        button{
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

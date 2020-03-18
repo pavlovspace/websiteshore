@@ -17,13 +17,18 @@
         margin-bottom: 170px;
     }
 }
+.map-wrapper{
+    background-color: rgba(255, 255, 255, 0.068);
+    margin-bottom: 120px;
+}
 .map-info__block{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     width: 50%;
-    background-color: rgba(255, 255, 255, 0.068);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(2, 12, 22, 0.781);
 }
 .block__left, .block__right{
     font-size: 28px;
@@ -33,4 +38,17 @@
 }
 .form-inputs{
     width: 700px;
+}
+.contact-forms{
+    #name{
+        margin-bottom: 40px; 
+    }
+    #email{
+        margin-bottom: 40px;
+    }
+}
+.contact-right{
+    .button{
+        cursor: pointer;
+    }
 }

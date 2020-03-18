@@ -84,6 +84,9 @@
     }
 }
 .relax-slider__btn {
+    button{
+        border: none;
+    }
     .btn{
         cursor: pointer;
     }

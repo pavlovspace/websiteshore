@@ -246,15 +246,16 @@ $(document).ready(function(){
 
 
 $('.btn').click(function() {
-  $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .header__item, .logo, .header__burger').css('filter','blur(5px)');
+  $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .header__item, .logo, .header__burger, .shop__slider-item').css('filter','blur(5px)');
   $('.contact-form').fadeIn();
   $('.contact-form').addClass('disabled');
 });
 
 $('.form-close').click(function() {
   $('.contact-form').fadeOut();
-  $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .header__item, .logo, .header__burger').css('filter', 'none');
+  $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .header__item, .logo, .header__burger, .shop__slider-item').css('filter', 'none');
 });
+
 
 
 });

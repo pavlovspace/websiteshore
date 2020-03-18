@@ -50,6 +50,4 @@ $("#sendMail").on("click", function() {
         }
     });
 
-    
-
 });

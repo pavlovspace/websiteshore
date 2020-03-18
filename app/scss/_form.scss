@@ -9,8 +9,8 @@
 }
 /*--profile start here--*/
 h2 {
-   font-size: 3em;
-   background-color: rgba(142, 142, 144, 0.103);
+    font-size: 3em;
+    background-color: rgba(142, 142, 144, 0.103);
     text-align: center;
     font-weight: 500;
     text-transform: uppercase;
@@ -80,6 +80,7 @@ h2 {
     button{
         border: none;
         background: none;
+        cursor: pointer;
     }
 }
 .contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{
