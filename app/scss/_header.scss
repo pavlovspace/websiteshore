@@ -176,16 +176,9 @@ body.lock{
     background: url(../img/header-bg.jpg)0 0 no-repeat;
     background-size: cover;
     .slider-arrows{
-        position: absolute;
         top: 160px;
-        right: 106px;
-        cursor: pointer;
-        z-index: 4;
     }
-    .slider-arrows__left{
-        right: 151px;
-    }
-}
+}    
 .header__location{
     opacity: 0.7;
     padding-left: 20px;
