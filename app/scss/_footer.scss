@@ -22,13 +22,15 @@
     a:first-child{
         padding-right: 30px;
     }
+    a:nth-child(2){
+        padding-right: 0;
+    }
 }
 
 .footer-item{
     padding-left: 106px;
 }
 .footer__cop{
-    padding-right: 176px;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 300;

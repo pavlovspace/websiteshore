@@ -116,6 +116,30 @@
         padding: 160px 0px 0px 20px;
     }
         //- - - -RELAX- - - -//
+    .travel-grid {
+    grid-template-columns: repeat(4, 1fr);
+    }
+    .wrap-item{
+        &:nth-child(1){
+            grid-column: 1 / 4;
+        }
+        &:nth-child(3){
+            grid-column: 2 / 5;
+        } 
+        &:nth-child(4){
+            grid-column: 2 / 5;
+        } 
+        &:nth-child(6){
+            grid-column: 1;
+            grid-row: 2 / 4;
+        }
+        &:nth-child(8){
+            grid-column: 3 / 5;
+        } 
+    }
+    .travel-grid__item {
+        font-size: 16px;
+    }
     .relax-slider__descr {
         padding: 160px 0px 0px 20px;
     }
@@ -201,6 +225,9 @@
     }
     .suptitle-left{
         padding: 0 0 0 65px;
+    }
+    .travel-slider__subtitle {
+        padding: 70px 106px 120px 0;
     }
     //- -SPORT- -//
     //- - -TRAVEL- - -//
@@ -299,9 +326,6 @@
         max-width: 100%;
         min-height: 280px;
     }
-    .footer__cop {
-        padding-right: 60px;
-    }
 }
 
 
@@ -368,6 +392,40 @@
      }
      //- -SPORT- -//
       //- - -RELAX- - -//
+      .travel-slider__subtitle {
+        padding: 100px 60px 120px 0;
+    }
+    .travel-grid {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 60px;
+    }
+    .wrap-item{
+        &:nth-child(1){
+            grid-column: 1 / 3;
+        }
+        &:nth-child(2){
+            grid-column: 3 / 6;
+        }
+        &:nth-child(3){
+            grid-column: 1 / 3;
+        } 
+        &:nth-child(4){
+            grid-column: 3 / 6;
+        } 
+        &:nth-child(5){
+            grid-column: 1 / 3;
+        } 
+        &:nth-child(6){
+            grid-column: 3 / 6;
+            grid-row: initial;
+        }
+        &:nth-child(7){
+            grid-column: 1 / 3;
+        } 
+        &:nth-child(8){
+            grid-column: 3 / 6;
+        } 
+    }
       .relax{
           overflow: hidden;
       }
@@ -404,7 +462,6 @@
         padding-left: 60px;
     }
     .footer__cop {
-        padding-right: 0px;
         width: 155px;
         text-align: center;
     }
@@ -473,10 +530,12 @@
             font-size: 40px;
         }
     }
-    .travel h3 {
-        top: -28px;
-        right: 208px;
-        font-size: 40px;
+    .travel{
+        .title{
+            h3{
+                right: 208px;
+            }
+        } 
     }
     .subtitle__head{
         display: block;
@@ -537,9 +596,12 @@
     }
     .shop{
         .title h3 {
-           top: -28px;
+           top: 0px;
            font-size: 40px;
            right: 169px;
+       }
+       .title span{
+        padding: 29px 75px 40px 40px;
        }
    }
 }
@@ -554,6 +616,15 @@
         //- - -RELAX- - -//
     .relax-slider__descr{
         background-image: none !important;
+    }
+    .shop{
+        overflow: hidden;
+    }
+    .travel{
+        overflow: hidden;
+    }
+    .sport{
+        overflow: hidden;
     }
 }
 
@@ -571,7 +642,10 @@
         top: 200px;
     }
     .footer-item {
-        width: 187px;
+        width: 129px;
+    }
+    .footer a:first-child {
+        padding-right: 0px;
     }
  }
 
@@ -588,15 +662,43 @@
         .slider-arrows__left{
             right: 70px;
         }
+        .suptitle-right {
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 2px;
+            padding-right: 103px;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 1px;
+            background-color: #fff;
+            left: 178px;
+            top: 71%;
+        }
+    }
+    .shop__slider-info {
+        padding: 30px 0 55px 0;
+    }
+    .descr__head-shop {
+        font-size: 24px;
+        margin: 10px 0 47px 0;
+    }
+        .descr__head {
+            font-size: 24px;
+        }
         .suptitle-left {
             font-size: 14px;
             margin-bottom: -8px;
+        }
+        .subtitle__head {
+            font-size: 24px;
         }
         .slider-item__info-title{
             font-size: 35px;
         }
     .travel-slider__subtitle{
-        padding: 100px 80px 0 0;     
+        padding: 100px 20px 0 0;     
     }
     .relax-slider__subtitle {
         padding: 100px 80px 0 0; 
@@ -642,15 +744,67 @@
     .suptitle-left {
         line-height: 24px;
     }
+    .travel-slider__descr {
+        padding: 90px 0px 0px 20px;
+        min-height: 180px;
+    }
+    .travel{
+    .suptitle-right::before {
+        left: 92px;
+        top: 50%;
+    }
+  }
+    .travel-slider__info-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .travel-slider__info-subtitle {
+        font-size: 14px;
+        line-height: 7px;
+        letter-spacing: 6px;
+        top: 85px;
+    }
+    .travel-slider__info-subtitlewrap{
+        font-size: 14px;
+    }
+    .travel-grid {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 20px;
+    }
+    .wrap-item{
+        &:nth-child(1){
+            grid-column: 1 / 6;
+        }
+        &:nth-child(2){
+            grid-column: 1 / 6;
+        }
+        &:nth-child(3){
+            grid-column: 1 / 6;
+        } 
+        &:nth-child(4){
+            grid-column: 1 / 6;
+        } 
+        &:nth-child(5){
+            grid-column: 1 / 6;
+        } 
+        &:nth-child(6){
+            grid-column: 1 / 6;
+            grid-row: initial;
+        }
+        &:nth-child(7){
+            grid-column: 1 / 6;
+        } 
+        &:nth-child(8){
+            grid-column: 1 / 6;
+        } 
+    }
     //footer//
     .footer a {
         padding-right: 20px;
     }
     .footer-item {
         padding-left: 20px;
-    }
-    .footer-item {
-        width: 107px;
+        width: 79px;
     }
  }
 
@@ -711,9 +865,6 @@
             font-size: 22px;
         }
     }
-    .subtitle__head {;
-        font-size: 21px;
-    }
     //- - -SHOP- - -//
     .shop__slider-content{
         padding-left: 0;
@@ -752,9 +903,6 @@
     .relax {
         background-size: 100px;
     }
-    .descr__head{
-        font-size: 27px;
-    }
     .travel {
         padding: 100px 0 270px 0;
     }
@@ -775,9 +923,6 @@
         background-color: #fff;
         left: 31px;
         top: 50%;
-    }
-    .travel-slider__subtitle {
-        padding: 49px 80px 0 0;
     }
     .relax-slider__subtitle {
         padding: 49px 80px 0 0;
@@ -803,11 +948,12 @@
                     //- - - 375px - - -//
 @media (max-width: 375px){
     .header__title {
-        font-size: 60px;
-        line-height: 57px;
+        font-size: 45px;
+        line-height: 37px;
     }
     .suptitle-left {
         font-size: 11px;
+        line-height: 17px;
     }
     .header{
         .suptitle-left {
@@ -831,7 +977,7 @@
         .title{
             span {
                 font-size: 65px;
-                padding: 24px 75px 40px 50px;
+                padding: 24px 86px 40px 36px;
             }
             h3{
                 font-size: 40px;
@@ -862,9 +1008,6 @@
         width: 195px;
         padding: 28px 10px 0;
     }
-    .descr__head{
-        font-size: 23px;
-    }
     .relax{
         .descr {
             padding: 0px 0px 0px 0px;
@@ -883,21 +1026,17 @@
         }
     }
     .suptitle-right {
-        padding: 0;
-        font-size: 20px;
-    }
-    .descr__head-shop {
-        padding: 0;
-        font-size: 30px;
+        font-size: 11px;
     }
     .shop{
         .title span {
             font-size: 66px;
-            padding: 0 130px 40px 40px;
+            padding: 31px 130px 40px 40px;
         }
     }
     //footer//
     .footer__cop {
         font-size: 9px;
+        width: 124px;
     }
 }
