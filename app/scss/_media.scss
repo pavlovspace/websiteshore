@@ -37,6 +37,16 @@
     .shop__slider-content {
         padding: 0px 0px 0px 344px;
     }
+    .shop__slider__btn{
+        position: absolute;
+        right: 570px;
+        bottom: 60px;
+    }
+    .shop{
+        .contact-form{
+          top: 695%;
+        }
+    }
 }
 
 
@@ -154,6 +164,11 @@
                 right: 179px;
                 font-size: 80px;
             }
+        }
+    }
+    .shop{
+        .contact-form{
+          top: 730%;
         }
     }
 }
@@ -309,6 +324,11 @@
         width: 20px;
         left: -32px;
     }
+    .shop{
+        .contact-form{
+          top: 760%;
+        }
+    }
 }
 
 
@@ -325,6 +345,20 @@
         background-image: none;
         max-width: 100%;
         min-height: 280px;
+    }
+    .shop{
+        .contact-form{
+          top: 736%;
+          padding: 0em;
+        }
+        .form-close:before{
+            top: 25px;
+            right: 5px;
+        }
+        .form-close:after{
+            top: 25px;
+            right: 5px;
+        }
     }
 }
 
@@ -467,6 +501,23 @@
     }
 }
 
+                    //- - - 803px - - -//
+@media (max-width: 803px){
+    .shop{
+        .contact-form{
+          top: 733%;
+        }
+        .form-close:before{
+            top: -250px;
+            right: -185px;
+        }
+        .form-close:after{
+            top: -250px;
+            right: -185px;
+        }
+    }
+}
+
 
                     //- - - 766px - - -//
 @media (max-width: 766px){
@@ -604,6 +655,22 @@
         padding: 29px 75px 40px 40px;
        }
    }
+   .shop__slider__btn {
+    right: 270px;
+}
+    .shop{
+        .contact-form{
+        top: 700%;
+        }
+        .form-close:before{
+            top: -250px;
+            right: -185px;
+        }
+        .form-close:after{
+            top: -250px;
+            right: -185px;
+        }
+    }
 }
 
 
@@ -626,6 +693,14 @@
     .sport{
         overflow: hidden;
     }
+    .shop{
+        .form-close:before{
+            right: -155px;
+        }
+        .form-close:after{
+            right: -155px;
+        }
+    }
 }
 
 
@@ -646,6 +721,32 @@
     }
     .footer a:first-child {
         padding-right: 0px;
+    }
+    .shop{
+        .form-close:before{
+            right: -140px;
+        }
+        .form-close:after{
+            right: -140px;
+        }
+    }
+ }
+
+
+                    //- - - 570px - - -//
+ @media (max-width: 570px){
+    .shop{
+        .contact-form{
+            top: 733%;
+        }
+        .form-close:before{
+            top: -260px;
+            right: 20px;
+        }
+        .form-close:after{
+            top: -260px;
+            right: 20px;
+        }
     }
  }
 
@@ -798,6 +899,15 @@
             grid-column: 1 / 6;
         } 
     }
+    //shop//
+    .shop__slider__btn {
+        right: 185px;
+    }
+    .shop{
+        .contact-form{
+            top: 818%;
+        }
+    }
     //footer//
     .footer a {
         padding-right: 20px;
@@ -873,6 +983,25 @@
         left: 3px;
         top: 313px;
     }
+    .shop__slider-content {
+        margin-bottom: 140px;
+    }
+    .shop__slider__btn {
+        bottom: 0;
+    }
+    .shop{
+        .contact-form{
+            top: 818%;
+        }
+        .form-close:before{
+            top: -226px;
+            right: 20px;
+        }
+        .form-close:after{
+            top: -226px;
+            right: 20px;
+        }
+    }
     //footer//
     .footer__cop {
         font-size: 10px;
@@ -908,6 +1037,22 @@
     }
     .sport {
         padding: 100px 0 0 0;
+    }
+    .shop__slider__btn {
+        right: 105px;
+    }
+    .shop{
+        .contact-form{
+            top: 794%;
+        }
+        .form-close:before{
+            top: -226px;
+            right: 20px;
+        }
+        .form-close:after{
+            top: -226px;
+            right: 20px;
+        }
     }
 } 
 
