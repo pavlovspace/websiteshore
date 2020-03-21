@@ -329,6 +329,20 @@
           top: 760%;
         }
     }
+    .relax-form{
+        .contact-form {
+            top: 352%;
+            padding: 1em;
+        }
+        .form-close:before{
+            top: 14px;
+            right: -10px;
+        }
+        .form-close:after{
+            top: 14px;
+            right: -10px;
+        }
+    }
 }
 
 
@@ -427,7 +441,10 @@
      //- -SPORT- -//
       //- - -RELAX- - -//
       .travel-slider__subtitle {
-        padding: 100px 60px 120px 0;
+        padding: 70px 60px 120px 0;
+    }
+    .relax-subtitle {
+        padding: 100px 60px 0 0;
     }
     .travel-grid {
         grid-template-columns: repeat(4, 1fr);
@@ -475,6 +492,16 @@
                 font-size: 80px;
             }
         }
+        .relax-panel__heading{
+            font-size: 21px;
+        }
+        .relax-panel__heading ::after {
+            top: 8px;
+            left: 445px;
+        }
+    }
+    .price-descr .descr {
+        padding: 0 0 0 60px;
     }
     //- - - -SHOP- - - -//
     .surfboard-box__content{
@@ -499,6 +526,20 @@
         width: 155px;
         text-align: center;
     }
+    .relax-form{
+        .contact-form {
+            top: 352%;
+            padding: 0em;
+        }
+        .form-close:before{
+            top: 26px;
+            right: 7px;
+        }
+        .form-close:after{
+            top: 26px;
+            right: 7px;
+        }
+    }
 }
 
                     //- - - 803px - - -//
@@ -514,6 +555,27 @@
         .form-close:after{
             top: -250px;
             right: -185px;
+        }
+    }
+    .relax-form{
+        .contact-right span {
+            top: 185px;
+            left: 0;
+        }
+        .contact-form textarea {
+            min-height: 13em;
+            resize: none;
+        }
+        .contact-form {
+            top: 350%;
+        }
+        .form-close:before{
+            top: -370px;
+            right: -184px;
+        }
+        .form-close:after{
+            top: -370px;
+            right: -184px;
         }
     }
 }
@@ -623,7 +685,7 @@
         .title h3 {
            top: 6px;
            font-size: 40px;
-           right: 169px;
+           right: 98px;
        }
    }
     //- -SPORT- -//
@@ -660,7 +722,7 @@
 }
     .shop{
         .contact-form{
-        top: 700%;
+        top: 725%;
         }
         .form-close:before{
             top: -250px;
@@ -669,6 +731,23 @@
         .form-close:after{
             top: -250px;
             right: -185px;
+        }
+    }
+    .relax-form{
+        .contact-right span {
+            top: 185px;
+            left: 0;
+        }
+        .contact-form {
+            top: 339%;
+        }
+        .form-close:before{
+            top: -370px;
+            right: -167px;
+        }
+        .form-close:after{
+            top: -370px;
+            right: -167px;
         }
     }
 }
@@ -701,6 +780,22 @@
             right: -155px;
         }
     }
+    .descr__head .relax__star-list img {
+       display: none;
+    }
+    .relax-form{
+        .contact-form {
+            top: 342%;
+        }
+        .form-close:before{
+            top: -371px;
+            right: -146px;
+        }
+        .form-close:after{
+            top: -371px;
+            right: -146px;
+        }
+    }
 }
 
 
@@ -730,6 +825,33 @@
             right: -140px;
         }
     }
+    .relax-form{
+        .contact-right span {
+            top: 142px;
+            left: 0;
+        }
+        .styled-input {
+            width: 100%;
+            margin: 1em 0 1em;
+            position: relative;
+        }
+        .contact-form textarea {
+            min-height: 10em;
+            resize: none;
+        }
+        .contact-form {
+            top: 350%;
+        }
+        .form-close:before{
+            right: -145px;
+            top: -262px;
+        }
+        .form-close:after{
+            right: -145px;
+            top: -262px;
+        }
+    }
+
  }
 
 
@@ -748,6 +870,17 @@
             right: 20px;
         }
     }
+    .relax-form{
+        .form-close:before{
+            right: 5px;
+            top: -286px;
+        }
+        .form-close:after{
+            right: 5px;
+            top: -286px;
+        }
+    }
+
  }
 
 
@@ -809,10 +942,25 @@
             font-size: 30px;
         }
     }
+    .price-descr .descr {
+        padding: 0 0 0 20px;
+    }
+    .relax-subtitle {
+        padding: 70px 20px 0 0;
+    }
     .relax-slider__descr .descr__head .relax__star-list {
         position: absolute;
         right: 11px;
         top: -19px;
+    }
+    .relax{
+        .relax-panel__heading{
+            font-size: 14px;
+        }
+        .relax-panel__heading ::after {
+            top: 4px;
+            left: 340px;
+        }
     }
     .menu-btn {
         right: 20px;
@@ -849,7 +997,7 @@
         padding: 90px 0px 0px 20px;
         min-height: 180px;
     }
-    .travel{
+    .descr{
     .suptitle-right::before {
         left: 92px;
         top: 50%;
@@ -867,6 +1015,20 @@
     }
     .travel-slider__info-subtitlewrap{
         font-size: 14px;
+    }
+    .relax-slider__info-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .relax-slider__info-titleplus {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .relax-slider__info-subtitle {
+        font-size: 14px;
+        line-height: 7px;
+        letter-spacing: 6px;
+        top: 85px;
     }
     .travel-grid {
         grid-template-columns: repeat(4, 1fr);
@@ -915,6 +1077,26 @@
     .footer-item {
         padding-left: 20px;
         width: 79px;
+    }
+    //relax//
+    .relax-form{
+        .contact-form {
+            top: 325%;
+        }
+        .form-close:before{
+            right: 5px;
+            top: -286px;
+        }
+        .form-close:after{
+            right: 5px;
+            top: -286px;
+        }
+    }
+    .relax__arrows{
+        padding: 0;
+        h2 {
+            font-size: 1.5em;
+        }
     }
  }
 
@@ -973,6 +1155,18 @@
     .relax{
         .descr__head {
             font-size: 22px;
+        }
+    }
+    .relax{
+        .relax-panel__heading{
+            font-size: 11px;
+            p{
+                padding: 2px;
+            }
+        }
+        .relax-panel__heading ::after {
+            top: 4px;
+            left: 285px;
         }
     }
     //- - -SHOP- - -//
@@ -1134,14 +1328,19 @@
     .relax{
         .title{
             span {
-                font-size: 55px;
-                padding: 42px 75px 40px 50px;
+                font-size: 66px;
+                padding: 36px 75px 40px 50px;
             }
             h3{
                 font-size: 40px;
-                right: 154px;
+                right: 138px;
                 top: -13px;
             }
+        }
+    }
+    .relax-form{
+        .contact-form {
+            top: 308%;
         }
     }
     .relax .title h3 {
