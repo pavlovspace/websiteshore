@@ -53,6 +53,12 @@
         .form-close{
             display: none;
         }
+        .relax__arrows{
+            display: block;
+            img{
+            margin-bottom: 70px;
+            }
+        }
     }
 }
 
@@ -573,11 +579,18 @@
         }
         .contact-form{
             border: none;
+            background-color: none;
+            backdrop-filter: none;
         }
         .contact-left {
             float: none; 
             width: 105%; 
             margin: 0;
+        }
+        .relax__arrows{
+            img{
+            margin-bottom: 120px;
+            }
         }
     }
     /*.shop{
