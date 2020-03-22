@@ -3,10 +3,6 @@
         text-align: center;
     }
 }
-.wrap {
-    width: 50%;
-    margin: 0 auto;
-}
 /*--profile start here--*/
 h2 {
     font-size: 3em;
@@ -198,7 +194,7 @@ select{
 } 
 
 /*-- responsive --*/
-@media(max-width:1280px){
+/*@media(max-width:1280px){
 	.wrap {
 		width: 60%;
 	}
@@ -293,4 +289,4 @@ select{
     .contact-forms input[type="text"], .contact-forms input[type="email"], .contact-forms textarea {
 		width: 86%;
 	}
-}
+}*/
