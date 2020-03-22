@@ -37,13 +37,13 @@
     .shop__slider-content {
         padding: 0px 0px 0px 344px;
     }
-    .shop__slider__btn{
+    .shop__slider__btn, .relax-slider__btn{
        display: none;
     }
-    .shop{
+    .shop, .relax-form{
         .wrap{
             margin-left: 51%;
-            margin-bottom: -100px;
+            margin-bottom: -90px;
             margin-top: 240px;
         }
         .contact-form{
@@ -55,9 +55,17 @@
         }
         .relax__arrows{
             display: block;
-            img{
-            margin-bottom: 70px;
-            }
+        }
+    }
+    .relax-form{
+       .contact-form{
+        margin-top: 120px;
+       }
+    }
+    .relax__arrows{
+        display: block;
+        img{
+        margin-bottom: 70px;
         }
     }
 }
@@ -179,11 +187,6 @@
             }
         }
     }
-    /*.shop{
-        .contact-form{
-          top: 730%;
-        }
-    }*/
 }
 
 
@@ -337,25 +340,6 @@
         width: 20px;
         left: -32px;
     }
-    /*.shop{
-        .contact-form{
-          top: 760%;
-        }
-    }*/
-    .relax-form{
-        .contact-form {
-            top: 352%;
-            padding: 1em;
-        }
-        .form-close:before{
-            top: 14px;
-            right: -10px;
-        }
-        .form-close:after{
-            top: 14px;
-            right: -10px;
-        }
-    }
 }
 
 
@@ -373,28 +357,11 @@
         max-width: 100%;
         min-height: 280px;
     }
-    .shop{
+    .shop, .relax-form{
         .contact-form{
             padding: 0em;
         }
-            wrap {
-            margin-top: 429px;
-        }
     }
-    /*.shop{
-        .contact-form{
-          top: 736%;
-          padding: 0em;
-        }
-        .form-close:before{
-            top: 25px;
-            right: 5px;
-        }
-        .form-close:after{
-            top: 25px;
-            right: 5px;
-        }
-    }*/
 }
 
 
@@ -547,25 +514,11 @@
         width: 155px;
         text-align: center;
     }
-    .relax-form{
-        .contact-form {
-            top: 352%;
-            padding: 0em;
-        }
-        .form-close:before{
-            top: 26px;
-            right: 7px;
-        }
-        .form-close:after{
-            top: 26px;
-            right: 7px;
-        }
-    }
 }
 
                     //- - - 803px - - -//
 @media (max-width: 803px){
-    .shop{
+    .shop {
         .contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{
             width: 213%;
         }
@@ -593,38 +546,26 @@
             }
         }
     }
-    /*.shop{
-        .contact-form{
-          top: 733%;
-        }
-        .form-close:before{
-            top: -250px;
-            right: -185px;
-        }
-        .form-close:after{
-            top: -250px;
-            right: -185px;
-        }
-    }*/
     .relax-form{
-        .contact-right span {
-            top: 185px;
-            left: 0;
+        .styled-input input ~ span, .styled-input textarea ~ span {
+            display: none;
         }
-        .contact-form textarea {
-            min-height: 13em;
-            resize: none;
+        .wrap {
+            margin-left: 40%;
         }
-        .contact-form {
-            top: 350%;
+        .contact-form{
+            margin-top: 150px;
+            border: none;
+            background-color: none;
+            backdrop-filter: none;
         }
-        .form-close:before{
-            top: -370px;
-            right: -184px;
+        .contact-left {
+            width: 135%; 
         }
-        .form-close:after{
-            top: -370px;
-            right: -184px;
+        .relax__arrows{
+            img{
+            margin-bottom: 120px;
+            }
         }
     }
 }
@@ -766,39 +707,6 @@
         padding: 29px 75px 40px 40px;
        }
    }
-   /*.shop__slider__btn {
-    right: 270px;
-}
-    .shop{
-        .contact-form{
-        top: 725%;
-        }
-        .form-close:before{
-            top: -250px;
-            right: -185px;
-        }
-        .form-close:after{
-            top: -250px;
-            right: -185px;
-        }
-    }*/
-    .relax-form{
-        .contact-right span {
-            top: 185px;
-            left: 0;
-        }
-        .contact-form {
-            top: 339%;
-        }
-        .form-close:before{
-            top: -370px;
-            right: -167px;
-        }
-        .form-close:after{
-            top: -370px;
-            right: -167px;
-        }
-    }
 }
 
 
@@ -811,6 +719,9 @@
         //- - -RELAX- - -//
     .relax-slider__descr{
         background-image: none !important;
+    }
+    .relax__arrows{
+        overflow: hidden;
     }
     .shop{
         overflow: hidden;
@@ -831,19 +742,6 @@
     }
     .descr__head .relax__star-list img {
        display: none;
-    }
-    .relax-form{
-        .contact-form {
-            top: 342%;
-        }
-        .form-close:before{
-            top: -371px;
-            right: -146px;
-        }
-        .form-close:after{
-            top: -371px;
-            right: -146px;
-        }
     }
     .shop{
         .wrap {
@@ -883,61 +781,12 @@
             right: -140px;
         }
     }
-    .relax-form{
-        .contact-right span {
-            top: 142px;
-            left: 0;
-        }
-        .styled-input {
-            width: 100%;
-            margin: 1em 0 1em;
-            position: relative;
-        }
-        .contact-form textarea {
-            min-height: 10em;
-            resize: none;
-        }
-        .contact-form {
-            top: 350%;
-        }
-        .form-close:before{
-            right: -145px;
-            top: -262px;
-        }
-        .form-close:after{
-            right: -145px;
-            top: -262px;
-        }
-    }
 
  }
 
 
                     //- - - 570px - - -//
  @media (max-width: 570px){
-    /*.shop{
-        .contact-form{
-            top: 733%;
-        }
-        .form-close:before{
-            top: -260px;
-            right: 20px;
-        }
-        .form-close:after{
-            top: -260px;
-            right: 20px;
-        }
-    }*/
-    .relax-form{
-        .form-close:before{
-            right: 5px;
-            top: -286px;
-        }
-        .form-close:after{
-            right: 5px;
-            top: -286px;
-        }
-    }
     .shop{
         .wrap {
             margin-left: 28%;
@@ -1129,14 +978,6 @@
         } 
     }
     //shop//
-    /*.shop__slider__btn {
-        right: 185px;
-    }
-    .shop{
-        .contact-form{
-            top: 818%;
-        }
-    }*/
     //footer//
     .footer a {
         padding-right: 20px;
@@ -1146,23 +987,19 @@
         width: 79px;
     }
     //relax//
-    .relax-form{
-        .contact-form {
-            top: 325%;
-        }
-        .form-close:before{
-            right: 5px;
-            top: -286px;
-        }
-        .form-close:after{
-            right: 5px;
-            top: -286px;
-        }
-    }
     .relax__arrows{
         padding: 0;
         h2 {
             font-size: 1.5em;
+        }
+    }
+    .relax-panel__heading{
+        overflow: hidden;
+    }
+    .relax-form{
+        overflow: hidden;
+        .contact-form{
+            margin-top: 170px;
         }
     }
  }
@@ -1247,22 +1084,6 @@
     .shop__slider-content {
         margin-bottom: 140px;
     }
-   /* .shop__slider__btn {
-        bottom: 0;
-    }
-    .shop{
-        .contact-form{
-            top: 818%;
-        }
-        .form-close:before{
-            top: -226px;
-            right: 20px;
-        }
-        .form-close:after{
-            top: -226px;
-            right: 20px;
-        }
-    }*/
     .shop{
         .wrap {
             margin-left: 38%;
@@ -1270,6 +1091,11 @@
         .contact-left {
             width: 60%; 
             margin: 0;
+        }
+    }
+    .relax-form{
+        .wrap{
+            margin-bottom: -150px;
         }
     }
     //footer//
@@ -1308,22 +1134,6 @@
     .sport {
         padding: 100px 0 0 0;
     }
-    /*.shop__slider__btn {
-        right: 105px;
-    }
-    .shop{
-        .contact-form{
-            top: 855%;
-        }
-        .form-close:before{
-            top: -226px;
-            right: 20px;
-        }
-        .form-close:after{
-            top: -226px;
-            right: 20px;
-        }
-    }*/
 } 
 
 
@@ -1412,11 +1222,6 @@
                 right: 138px;
                 top: -13px;
             }
-        }
-    }
-    .relax-form{
-        .contact-form {
-            top: 308%;
         }
     }
     .relax .title h3 {
