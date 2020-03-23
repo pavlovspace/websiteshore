@@ -14,6 +14,8 @@
 .map{
     .title{
         margin-top: 50px;
+    }
+    span{
         margin-bottom: 170px;
     }
     h3{
@@ -26,6 +28,8 @@
 }
 .map-info__block{
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     align-items: center;
     justify-content: center;
     margin: 0 auto;

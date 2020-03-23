@@ -12,6 +12,11 @@
    .header__menu.active {
     padding: 221px 10px 0px 418px;
    }
+   .map-info__block{
+        .block__left, .block__right{
+            font-size: 20px;
+        }
+    }
 }
 
 
@@ -24,6 +29,9 @@
     }
      //header//
     //- - -SHOP- - -//
+    .descr-shop, .shop__slider-price{
+        padding-left: 80px;
+    }
      .shop__slider-inner{
         display: block;
      }
@@ -122,6 +130,12 @@
             width: 50px;
         }
     }
+    .suptitle-right {
+    &::before{
+        width: 50px;
+        right: 35px;
+    }
+}
     .slider-item__info-suptext{
         margin: 0px 0px 5px 0px;
         padding-left: 103px;
@@ -184,6 +198,17 @@
                 top: -28px;
                 right: 179px;
                 font-size: 80px;
+            }
+        }
+    }
+    .map{
+        .title{
+            span{
+                font-size: 140px;
+                padding: 25px 75px 40px 40px;
+            }
+            h3{
+                right: 206px;
             }
         }
     }
@@ -362,6 +387,11 @@
             padding: 0em;
         }
     }
+    .map-info__form{
+        .contact-forms{
+            padding: 0em;
+        }
+    }
 }
 
 
@@ -489,9 +519,12 @@
         }
     }
     .price-descr .descr {
-        padding: 0 0 0 60px;
+        padding: 0 0 0 20px;
     }
     //- - - -SHOP- - - -//
+    .descr-shop, .shop__slider-price{
+        padding-left: 40px;
+    }
     .surfboard-box__content{
         padding-left: 0;
         top: 35px;
@@ -513,6 +546,9 @@
     .footer__cop {
         width: 155px;
         text-align: center;
+    }
+    .map{
+        overflow: hidden;
     }
 }
 
@@ -565,6 +601,32 @@
         .relax__arrows{
             img{
             margin-bottom: 120px;
+            }
+        }
+    }
+    .map-info{
+        .map-info__block {
+            width: 100%;
+            border-right: none;
+            border-left: none;
+        }
+    }
+    .map-info__form{
+        .styled-input input ~ span, .styled-input textarea ~ span {
+            display: none;
+        }
+        .contact-forms{
+            border: none;
+            background-color: none;
+            backdrop-filter: none;
+        }
+    }
+    .map {
+        .map-info__form{
+            .wrap {
+                width: 70%;
+                margin: 0 auto;
+                margin-bottom: 120px;
             }
         }
     }
@@ -631,6 +693,19 @@
             top: -28px;
             right: 179px;
             font-size: 40px;
+        }
+    }
+    .map{
+        .title{
+            span{
+                font-size: 80px;
+                padding: 0px 75px 40px 40px;
+                margin-bottom: 70px;
+            }
+            h3{
+                right: 206px;
+                font-size: 40px;
+            }
         }
     }
     .travel{
@@ -797,6 +872,15 @@
             margin: 0;
         }
     }
+    .map {
+        .map-info__form{
+            .wrap {
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 120px;
+            }
+        }
+    }
  }
 
 
@@ -818,13 +902,7 @@
             letter-spacing: 2px;
             padding-right: 103px;
         &::before{
-            content: "";
-            position: absolute;
-            width: 50px;
-            height: 1px;
-            background-color: #fff;
-            left: 178px;
-            top: 71%;
+            left: 305px;
         }
     }
     .shop__slider-info {
@@ -832,7 +910,7 @@
     }
     .descr__head-shop {
         font-size: 24px;
-        margin: 10px 0 47px 0;
+        margin: 20px 0 47px 0;
     }
         .descr__head {
             font-size: 24px;
@@ -857,9 +935,6 @@
         .descr__head {
             font-size: 30px;
         }
-    }
-    .price-descr .descr {
-        padding: 0 0 0 20px;
     }
     .relax-subtitle {
         padding: 70px 20px 0 0;
@@ -977,6 +1052,9 @@
             grid-column: 1 / 6;
         } 
     }
+    .descr-shop, .shop__slider-price{
+        padding-left: 0;
+    }
     //shop//
     //footer//
     .footer a {
@@ -1000,6 +1078,11 @@
         overflow: hidden;
         .contact-form{
             margin-top: 170px;
+        }
+    }
+    .map-info__block{
+        .block__left, .block__right{
+            font-size: 14px;
         }
     }
  }
@@ -1098,6 +1181,14 @@
             margin-bottom: -150px;
         }
     }
+    .suptitle-left::before {
+        content: "";
+        display: none;
+    }
+    .suptitle-right::before {
+        content: "";
+        display: none;
+    }
     //footer//
     .footer__cop {
         font-size: 10px;
@@ -1107,6 +1198,18 @@
     }
     .footer {
         margin-top: 60px;
+    }
+    .map {
+        .map-info__form{
+            .wrap {
+                width: 70%;
+                margin: 0 auto;
+                margin-bottom: 120px;
+            }
+            .contact-left {
+                width: 105%;
+            }
+        }
     }
 }
 
@@ -1157,10 +1260,6 @@
         right: 22px;
         top: -7px;
     }
-    .suptitle-left::before {
-        content: "";
-        display: none;
-    }
     .relax-slider__descr .descr__head .relax__star-list img {
         display: none;
     }
@@ -1208,6 +1307,18 @@
                 font-size: 40px;
                 right: 164px;
                 top: -13px;
+            }
+        }
+    }
+    .map{
+        .title{
+            span{
+                font-size: 65px;
+                padding: 5px 75px 0px 50px;
+            }
+            h3{
+                right: 160px;
+                font-size: 40px;
             }
         }
     }
