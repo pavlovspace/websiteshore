@@ -782,6 +782,13 @@
         padding: 29px 75px 40px 40px;
        }
    }
+   .map{
+    .map-iframe{
+        iframe{
+            height: 500px;
+        }
+    }
+   }
 }
 
 
@@ -1202,12 +1209,12 @@
     .map {
         .map-info__form{
             .wrap {
-                width: 70%;
+                width: 85%;
                 margin: 0 auto;
                 margin-bottom: 120px;
             }
             .contact-left {
-                width: 105%;
+                width: 112%;
             }
         }
     }
