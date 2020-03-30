@@ -256,6 +256,6 @@ $('.form-close').click(function() {
   $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .header__item, .logo, .header__burger, .shop__slider-item').css('filter', 'none');
 });
 
-
+new WOW().init();
 
 });

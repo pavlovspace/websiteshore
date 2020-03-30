@@ -104,10 +104,11 @@ body.lock{
 }
 .header__menu.active{
     top: 0;
+    overflow: auto;
 }
 .header__menu {
     position: fixed;
-    overflow: auto;
+    overflow: hidden;
     top: -200%;
     left: 0;
     width: 100%;

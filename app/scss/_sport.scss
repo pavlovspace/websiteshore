@@ -58,6 +58,7 @@
     }
 }
 .sport-box__inner{
+    overflow: hidden;
     min-height: 750px;
     background-color: rgba(#1C2121, .80);
     position: relative;
@@ -66,10 +67,8 @@
     transition: all .5s;
     &:hover{
         background-color: rgba(#1C2121, .30);
-        transition: all .5s;
         .btn-box{
-            display: block;
-            transition: all .5s;
+            transform: translate( 0, 0);
         }
     }
 }
@@ -101,7 +100,8 @@
     text-align: center;
     left: 0;
     right: 0;
-    display: none;
+    transition: all .5s;
+    transform: translate( 0, 200%);
 }
 .slider-map{
     max-width: 1400px;
@@ -171,6 +171,7 @@
     box-shadow: 0px 0px 35px $blue;
 }
 .slider-dots__content{
+    z-index: 1;
     display: none;  
     background-color: rgba(0, 0, 0, 0.308);
     border-radius: 10px;
