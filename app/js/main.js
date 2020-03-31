@@ -236,7 +236,7 @@ $(document).ready(function () {
   });
 });
 
-//popup in relax
+//popup
 $(document).ready(function(){
   $('.btn, .form-close').click(function(event){
     $('.contact-form').toggleClass('active');
