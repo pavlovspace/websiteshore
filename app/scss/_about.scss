@@ -31,9 +31,9 @@
     background: url(../img/about/downicon.png)top center no-repeat;
     z-index: 3;
     position: fixed;
-    top: 70px;
-    left: -20px;
-    background-size: 10%;
+    top: 150px;
+    left: -30px;
+    background-size: 6%;
 }
 .parallax__fog {
     background: url(../img/about/fog_1.png) bottom no-repeat;
@@ -75,6 +75,7 @@
     margin-bottom: 60px;
     p{
         margin-bottom: 20px;
+        line-height: 2;
     }
 }
 

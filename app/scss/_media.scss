@@ -679,6 +679,10 @@
         font-size: 90px;
         top: 89px;
     }
+    .header-price{
+        background-position: 0 0;
+        height: 60vh;
+    }
      //header//
     //- -SPORT- -//
     .sport{
@@ -753,6 +757,13 @@
            right: 98px;
        }
    }
+   .sport-box, .sport-box__wrapper, .sport-box__inner{
+    min-height: 400px;
+}
+.sport-box__inner-title-location{
+    display: none;
+}
+
     //- -SPORT- -//
         //- - - -SHOP- - - -//
     .surfboard-box__content{
@@ -788,6 +799,9 @@
             height: 500px;
         }
     }
+   }
+   .relax-slider__top{
+       min-height: 400px;
    }
 }
 
@@ -1192,7 +1206,7 @@
     }
     .relax-form{
         .wrap{
-            margin-bottom: -150px;
+            margin-bottom: -370px;
         }
     }
     .suptitle-left::before {
