@@ -150,6 +150,15 @@
     .relax-slider__subtitle {
         background: rgba(#1C2121, .70);
     }
+    //- - - -ABOUT- - - -//
+    .content{
+        .content__title {
+            font-size: 100px;
+        }
+        .content__subtitle {
+            font-size: 30px;
+        }
+    }
 }
 
 
@@ -392,6 +401,26 @@
             padding: 0em;
         }
     }
+    //- - - -ABOUT- - - -//
+.content{
+    .content__title {
+        font-size: 50px;
+    }
+    .content__subtitle {
+        font-size: 20px;
+    }
+}
+.page{
+    .parallax {
+        height: 18%; 
+    }
+    .parallax__aqua__3{
+        display: none;
+    }
+    .parallax__fog{
+        display: none;
+    }
+}
 }
 
 
@@ -400,6 +429,10 @@
                     //- - - 1040px - - -//
 @media (max-width: 1040px){
      //header//
+     .header__title {
+        font-size: 100px;
+        width: 200px;
+    }
      .header-wrap__body {
         padding-left: 60px;
         padding-right: 60px;
@@ -552,8 +585,8 @@
     }
 }
 
-                    //- - - 803px - - -//
-@media (max-width: 803px){
+                    //- - - 813px - - -//
+@media (max-width: 813px){
     .shop {
         .contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{
             width: 213%;
@@ -630,6 +663,11 @@
             }
         }
     }
+    .header__title {
+        font-size: 45px;
+        line-height: 50px;
+        width: 200px;
+    }
 }
 
 
@@ -674,14 +712,6 @@
     .dots-box {
         width: 110px;
         left: 44px;
-    }
-    .header__title {
-        font-size: 90px;
-        top: 89px;
-    }
-    .header-price{
-        background-position: 0 0;
-        height: 60vh;
     }
      //header//
     //- -SPORT- -//
@@ -902,11 +932,20 @@
             }
         }
     }
+    .header__title {
+        font-size: 35px;
+        line-height: 38px;
+        width: 150px;
+    }
  }
 
 
                     //- - - 550px - - -//
  @media (max-width: 550px){
+    .header-price{
+        min-height: 60vh;
+        background-size: 175% 100%;
+    }
     .header-wrap__body {
         padding-left: 20px;
         padding-right: 20px;
@@ -1141,10 +1180,6 @@
     .dots-box__name{
         margin: 0 auto;
     }
-    .header__title{
-        font-size: 65px;
-        line-height: 63px;
-    }
     .slider-item__info-title{
         font-size: 30px;
         margin-bottom: 0px;
@@ -1299,10 +1334,6 @@
 
                     //- - - 375px - - -//
 @media (max-width: 375px){
-    .header__title {
-        font-size: 45px;
-        line-height: 37px;
-    }
     .suptitle-left {
         font-size: 11px;
         line-height: 17px;
