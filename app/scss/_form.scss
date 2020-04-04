@@ -14,17 +14,19 @@ h2 {
 ::-webkit-input{
 	color:#FFFFFF !important;
 }
-
+.wrap{
+    margin-left: 51%;
+    margin-bottom: -90px;
+    margin-top: 240px;
+}
 .contact-form{
-    position: absolute;
+    display: inline-block;
     transform: translate(-50%, -50%);
-    top: 320%;
-    left: 50%;
-    display: none;
     background-color: rgba(2, 12, 22, 0.301);
     padding: 4em;
     backdrop-filter: blur(50px);
     border: 1px solid rgba(255, 255, 255, 0.52);
+    margin-top: 140px;
 }
 //2
 .contact-forms{
@@ -32,29 +34,6 @@ h2 {
     padding: 3em;
     backdrop-filter: blur(50px);
     border: 1px solid rgba(255, 255, 255, 0.52);
-}
-.form-close{
-    cursor: pointer;
-}
-.form-close:before{
-    content:'';
-    background-color: $blue;
-    position: absolute;
-    height: 3px;
-    width: 35px;
-    top: -25px;
-    right: -51px;
-    transform: rotate(-45deg);
-}
-.form-close:after{
-    content:'';
-    background-color: $blue;
-    position: absolute;
-    height: 3px;
-    width: 35px;
-    top: -25px;
-    right: -51px;
-    transform: rotate(45deg);
 }
 .styled-input.agile-styled-input-top {
     margin-top: 0;

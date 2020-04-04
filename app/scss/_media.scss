@@ -8,14 +8,28 @@
    }
    .header__menu {
     padding: 221px 10px 0px 418px;
+        span{
+            font-size: 40px;
+        }
    }
+   .sub-header__list li{
+        font-size: 20px;
+    }
    .header__menu.active {
-    padding: 221px 10px 0px 418px;
+        padding: 221px 10px 0px 418px;
    }
+    .sub-header__list{
+        top: -108px;
+        left: 130px;
+    }
    .map-info__block{
         .block__left, .block__right{
             font-size: 20px;
         }
+    }
+    .header__title{
+        font-size: 145px;
+        line-height: 128px;
     }
 }
 
@@ -23,6 +37,18 @@
 //- - - 1440px - - -//
 @media (max-width: 1440px) {
     //header//
+    .footer, .header-wrap__body{
+        height: 100px;
+    }
+    .header__item {
+        top: 42px;
+    }
+    .logo img{
+        max-width: 90px;
+    }
+    .footer img {
+        max-width: 90px;
+    }
     .header__title{
         font-size: 125px;
         line-height: 108px;
@@ -45,30 +71,10 @@
     .shop__slider-content {
         padding: 0px 0px 0px 344px;
     }
-    .shop__slider__btn, .relax-slider__btn{
-       display: none;
-    }
-    .shop, .relax-form{
-        .wrap{
-            margin-left: 51%;
-            margin-bottom: -90px;
-            margin-top: 240px;
-        }
-        .contact-form{
-          position: static;
-          display: inline-block;
-        }
-        .form-close{
-            display: none;
-        }
+    .relax-form{
         .relax__arrows{
             display: block;
         }
-    }
-    .relax-form{
-       .contact-form{
-        margin-top: 120px;
-       }
     }
     .relax__arrows{
         display: block;
@@ -296,35 +302,6 @@
     }
     //- -SPORT- -//
     //- - -TRAVEL- - -//
-    .travel-slider__info{
-        display: block;
-    }
-    .travel-slider__info-subtitle {
-        position: relative;
-        transform: rotate(0);
-        height: auto;
-        left: 0;
-        width: auto;
-        text-align: left;
-    }
-    .travel-slider__info-subtitlewrap{
-        position: relative;
-        transform: rotate(0);
-        height: auto;
-        top: 96px;
-        left: 0px;
-    }
-    .travel-slider__info-item {
-        margin-bottom: 20;
-        padding-left: 20px;
-        min-height: auto;
-    }
-    .travel-slider__info-title{
-        padding-left: 0;
-    }
-    .travel-slider__info-title span {
-        font-weight: 100;
-    }
     .travel-slider__descr {
         background-position: right -150px;
     }
@@ -359,7 +336,7 @@
         top: 100px;
     }
     .quantity-button.quantity-down {
-        top: 100px;
+        top: 109px;
     }
     .relax-slider__info-title .relax-pricing__span {
         font-weight: 100;
@@ -382,6 +359,16 @@
 @media (max-width: 1102px){
     .header__menu {
         padding: 221px 10px 0px 180px;
+        span{
+            font-size: 30px;
+        }
+    }
+    .sub-header__list{
+        top: -90px;
+        left: 90px;
+    }
+    .sub-header__list li{
+        font-size: 16px;
     }
     .header__menu.active {
         padding: 221px 10px 0px 180px;
@@ -548,7 +535,7 @@
         }
         .relax-panel__heading ::after {
             top: 8px;
-            left: 445px;
+            left: 687px;
         }
     }
     .price-descr .descr {
@@ -693,7 +680,8 @@
         padding: 180px 10px 0px 115px;
     }
     .header__menu span {
-        font-size: 44px;
+        line-height: 2.5;
+        font-size: 20px;
     }
      .slider-dotshead {
         padding: 0 0 0 55px;
@@ -786,6 +774,13 @@
            font-size: 40px;
            right: 98px;
        }
+        .relax-panel__heading{
+            font-size: 14px;
+        }
+        .relax-panel__heading ::after {
+            top: 4px;
+            left: 505px;
+        }
    }
    .sport-box, .sport-box__wrapper, .sport-box__inner{
     min-height: 400px;
@@ -858,14 +853,6 @@
     .sport{
         overflow: hidden;
     }
-    .shop{
-        .form-close:before{
-            right: -155px;
-        }
-        .form-close:after{
-            right: -155px;
-        }
-    }
     .descr__head .relax__star-list img {
        display: none;
     }
@@ -878,6 +865,15 @@
             margin: 0;
         }
     }
+    .shop__extras-inner{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        .shop__extras-box{
+            text-align: center;
+            width: 300px;
+            margin: 0 60px 50px 0;
+        }
+    }
 }
 
 
@@ -885,6 +881,7 @@
  @media (max-width: 640px){
     .shop__slider-content{
         display: block;
+        margin-bottom: 100px;
     }
     .shop__extras{
         padding: 35px 0 0 0;
@@ -899,15 +896,6 @@
     .footer a:first-child {
         padding-right: 0px;
     }
-    .shop{
-        .form-close:before{
-            right: -140px;
-        }
-        .form-close:after{
-            right: -140px;
-        }
-    }
-
  }
 
 
@@ -944,7 +932,6 @@
  @media (max-width: 550px){
     .header-price{
         min-height: 60vh;
-        background-size: 175% 100%;
     }
     .header-wrap__body {
         padding-left: 20px;
@@ -1004,15 +991,6 @@
         right: 11px;
         top: -19px;
     }
-    .relax{
-        .relax-panel__heading{
-            font-size: 14px;
-        }
-        .relax-panel__heading ::after {
-            top: 4px;
-            left: 340px;
-        }
-    }
     .menu-btn {
         right: 20px;
         top: 100px;
@@ -1054,18 +1032,18 @@
         top: 50%;
     }
   }
-    .travel-slider__info-title {
-        font-size: 30px;
-        line-height: 35px;
-    }
-    .travel-slider__info-subtitle {
-        font-size: 14px;
-        line-height: 7px;
-        letter-spacing: 6px;
-        top: 85px;
-    }
-    .travel-slider__info-subtitlewrap{
-        font-size: 14px;
+  .relax{
+        .relax-panel__heading{
+            overflow: hidden;
+            font-size: 11px;
+            p{
+                padding: 2px;
+            }
+        }
+        .relax-panel__heading ::after {
+            top: 4px;
+            left: 419px;
+        }
     }
     .relax-slider__info-title {
         font-size: 30px;
@@ -1131,9 +1109,6 @@
             font-size: 1.5em;
         }
     }
-    .relax-panel__heading{
-        overflow: hidden;
-    }
     .relax-form{
         overflow: hidden;
         .contact-form{
@@ -1151,7 +1126,11 @@
                 height: 350px;
             }
         }
-       }
+    }
+    .shop__extras-inner{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
  }
 
 
@@ -1164,9 +1143,6 @@
     }
      .header__menu.active {
         padding: 160px 10px 0px 60px;
-    }
-    .header__menu span {
-        font-size: 30px;
     }
     .header__location {
         font-size: 24px;
@@ -1207,18 +1183,6 @@
             font-size: 22px;
         }
     }
-    .relax{
-        .relax-panel__heading{
-            font-size: 11px;
-            p{
-                padding: 2px;
-            }
-        }
-        .relax-panel__heading ::after {
-            top: 4px;
-            left: 285px;
-        }
-    }
     //- - -SHOP- - -//
     .shop__slider-content{
         padding-left: 0;
@@ -1228,7 +1192,7 @@
         top: 313px;
     }
     .shop__slider-content {
-        margin-bottom: 140px;
+        margin-bottom: 0px;
     }
     .shop{
         .wrap {
@@ -1272,6 +1236,16 @@
             .contact-left {
                 width: 112%;
             }
+        }
+    }
+    .relax{
+        .relax-panel__heading{
+            p{
+                width: 180px;
+            }
+        }
+        .relax-panel__heading ::after {
+            left: 287px;
         }
     }
 }
@@ -1410,10 +1384,6 @@
         }
     }
             //- - -SHOP- - -//
-    .shop__extras-box {
-        text-align: center;
-        width: 118px;
-    }
     .shop{
         .suptitle-right::before {
             content: "";

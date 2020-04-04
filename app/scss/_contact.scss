@@ -64,3 +64,16 @@
         margin-bottom: 120px;
     }
 }
+.map-info__form{
+    .styled-input input ~ span,.styled-input textarea ~ span {
+        display: none;
+        }
+}
+.map{
+    .relax-form{
+        display: block;
+    }
+    .contact-form{
+        display: block;
+    }
+}

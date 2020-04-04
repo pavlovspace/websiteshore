@@ -29,7 +29,6 @@ $("#sendMail").on("click", function() {
         $("#errorMess").text("Wpisz wiadomość.");
         return false;
     } 
-
     $("#errorMess").text("")
 
     $.ajax({
@@ -49,5 +48,89 @@ $("#sendMail").on("click", function() {
             $("#sendMail").prop("disabled", false);
         }
     });
+});
 
+//2
+
+$("#send").on("click", function() {
+    var name = $("#name").val().trim();
+    var email = $("#email").val().trim();
+    var phone = $("#phone").val().trim();
+    var message = $("#message").val().trim();
+
+    if(name == ""){
+        $("#error").text("Wpisz imię.");
+        return false;
+    } else if(email == ""){
+        $("#error").text("Wpisz email.");
+        return false;
+    } else if(phone == ""){
+        $("#error").text("Wpisz numer telefonu.");
+        return false;
+    }
+      else if(message == ""){
+        $("#error").text("Wpisz wiadomość.");
+        return false;
+    } 
+    $("#error").text("")
+
+    $.ajax({
+        url: 'ajax/mail.php',
+        type: 'POST',
+        cache: false,
+        data: { 'name': name, 'email': email, 'phone': phone, 'age': message, },
+        dataType: 'html',
+        beforeSend: function() {
+            $("#send").prop("disabled", true);
+        },
+        success: function(data) {
+            if(!data)
+              alert("Przykro nam, pojawił się błąd przy zatwierdzaniu formularza, spróbuj ponownie.");
+            else
+            $("#mailForm").trigger("reset");
+            $("#send").prop("disabled", false);
+        }
+    });
+});
+
+//3
+$("#clicksen").on("click", function() {
+    var name = $("#name").val().trim();
+    var email = $("#email").val().trim();
+    var phone = $("#phone").val().trim();
+    var message = $("#message").val().trim();
+
+    if(name == ""){
+        $("#err").text("Wpisz imię.");
+        return false;
+    } else if(email == ""){
+        $("#err").text("Wpisz email.");
+        return false;
+    } else if(phone == ""){
+        $("#err").text("Wpisz numer telefonu.");
+        return false;
+    }
+      else if(message == ""){
+        $("#err").text("Wpisz wiadomość.");
+        return false;
+    } 
+    $("#err").text("")
+
+    $.ajax({
+        url: 'ajax/mail.php',
+        type: 'POST',
+        cache: false,
+        data: { 'name': name, 'email': email, 'phone': phone, 'age': message, },
+        dataType: 'html',
+        beforeSend: function() {
+            $("#sen").prop("disabled", true);
+        },
+        success: function(data) {
+            if(!data)
+              alert("Przykro nam, pojawił się błąd przy zatwierdzaniu formularza, spróbuj ponownie.");
+            else
+            $("#mailForm").trigger("reset");
+            $("#sen").prop("disabled", false);
+        }
+    });
 });
