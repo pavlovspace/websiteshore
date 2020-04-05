@@ -172,15 +172,6 @@ $('.quantity-button').on('click', function(){
 let summ  = $('.night').val() * $('.summ').data('night') + ($('.quest').val() -1) * $('.summ').data('quest');
 $('.summ').html('€' + summ);
 
-//kalkulator2
-$('.quantity-button').on('click', function(){
-  let summ2  = $('.night2').val() * $('.summ2').data('night2') + ($('.quest2').val() -1) * $('.summ2').data('quest2');
-  $('.summ2').html('€' + summ2);
-});
-
-let summ2  = $('.night2').val() * $('.summ2').data('night2') + ($('.quest2').val() -1) * $('.summ2').data('quest2');
-$('.summ2').html('€' + summ2);
-
 //shop circle'
 $('.surfboard-box__circle').on('click', function(){
     $(this).toggleClass('active')
@@ -190,7 +181,6 @@ $('.surfboard-box__circle').on('click', function(){
 $(document).ready(function(){
   $('.header__burger, .list-item').click(function(event){
     $('.header__burger, .header__menu').toggleClass('active');
-    $('body').toggleClass('lock');
   });
 });
 
@@ -235,27 +225,5 @@ $(document).ready(function () {
     $(this).toggleClass('in').next().slideToggle();
   });
 });
-
-//popup
-$(document).ready(function(){
-  $('.btn, .form-close').click(function(event){
-    $('.contact-form, .contact-forhop').toggleClass('active');
-    $('body').toggleClass('lock');
-  });
-});
-
-
-$('.btn').click(function() {
-  $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .shop__slider-item').css('filter','blur(5px)');
-  $('.contact-form, .contact-forhop').fadeIn();
-  $('.contact-form, .contact-forhop').addClass('disabled');
-});
-
-$('.form-close').click(function() {
-  $('.contact-form').fadeOut();
-  $('.relax__arrows, .footer, .relax-slider__btn, .relax-slider__info, .shop__slider-item').css('filter', 'none');
-});
-
-new WOW().init();
 
 });

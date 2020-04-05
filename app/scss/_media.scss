@@ -16,7 +16,7 @@
         font-size: 20px;
     }
    .header__menu.active {
-        padding: 221px 10px 0px 418px;
+        padding: 160px 10px 0px 418px;
    }
     .sub-header__list{
         top: -108px;
@@ -90,10 +90,10 @@
 @media (max-width: 1366px) {
      //header//
      .header__menu{
-        padding: 221px 10px 0px 260px;
+        padding: 160px 10px 0px 260px;
      }
      .header__menu.active {
-        padding: 221px 10px 0px 260px;
+        padding: 160px 10px 0px 260px;
      }
     .header__aside {
         position: absolute;
@@ -932,6 +932,7 @@
  @media (max-width: 550px){
     .header-price{
         min-height: 60vh;
+        background-attachment: scroll;
     }
     .header-wrap__body {
         padding-left: 20px;
