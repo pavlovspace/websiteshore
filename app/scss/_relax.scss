@@ -204,8 +204,9 @@
     line-height: 36px;
     text-align: right;
     text-transform: uppercase;
-    width: 185px;
+    width: 245px;
     position: relative;
+    text-align: left;
 
     .relax-pricing__span{
         display: block;
@@ -244,9 +245,10 @@ input[type=number]
     color: $blue;
     padding-left: 20px;
     background-color: transparent;
-    border: none;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
     padding: 0;
-    margin: -5px 0 0 0;
+    margin: -5px 7px 0 0;
+    text-align: center;
 }
 
 .quantity input:focus {
