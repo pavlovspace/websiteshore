@@ -31,6 +31,9 @@
         font-size: 145px;
         line-height: 128px;
     }
+    .relax-slider__top{
+        min-height: 600px;
+    }
 }
 
 
@@ -177,7 +180,7 @@
     }
         //- - - -RELAX- - - -//
     .travel-grid {
-    grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
     .wrap-item{
         &:nth-child(1){
@@ -303,7 +306,8 @@
     //- -SPORT- -//
     //- - -TRAVEL- - -//
     .travel-slider__descr {
-        background-position: right -150px;
+        background-position: right -50px;
+        margin-top: 50px;
     }
     //- - -TRAVEL- - -//
         //- - - -RELAX- - - -//
@@ -328,9 +332,6 @@
     }
     .relax-slider__info-title{
         padding-left: 0;
-    }
-    .relax-slider__descr {
-        background-position: right -150px;
     }
     .quantity-button.quantity-up {
         top: 100px;
@@ -574,28 +575,7 @@
 
                     //- - - 813px - - -//
 @media (max-width: 813px){
-    .shop {
-        .contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{
-            width: 213%;
-        }
-        .styled-input input ~ span, .styled-input textarea ~ span {
-            display: none;
-        }
-    }
     .shop{
-        .wrap {
-            margin-left: 26%;
-        }
-        .contact-form{
-            border: none;
-            background-color: none;
-            backdrop-filter: none;
-        }
-        .contact-left {
-            float: none; 
-            width: 105%; 
-            margin: 0;
-        }
         .relax__arrows{
             img{
             margin-bottom: 120px;
@@ -603,9 +583,6 @@
         }
     }
     .relax-form{
-        .styled-input input ~ span, .styled-input textarea ~ span {
-            display: none;
-        }
         .wrap {
             margin-left: 40%;
         }
@@ -632,9 +609,6 @@
         }
     }
     .map-info__form{
-        .styled-input input ~ span, .styled-input textarea ~ span {
-            display: none;
-        }
         .contact-forms{
             border: none;
             background-color: none;
@@ -836,6 +810,7 @@
     //- - -TRAVEL- - -//
     .travel-slider__descr{
         background-image: none !important;
+        margin-top: 0;
     }
         //- - -RELAX- - -//
     .relax-slider__descr{
@@ -855,15 +830,6 @@
     }
     .descr__head .relax__star-list img {
        display: none;
-    }
-    .shop{
-        .wrap {
-            margin-left: 24%;
-        }
-        .contact-left {
-            width: 100%; 
-            margin: 0;
-        }
     }
     .shop__extras-inner{
         display: flex;
@@ -932,7 +898,6 @@
  @media (max-width: 550px){
     .header-price{
         min-height: 60vh;
-        background-attachment: scroll;
     }
     .header-wrap__body {
         padding-left: 20px;
@@ -1024,12 +989,12 @@
         line-height: 24px;
     }
     .travel-slider__descr {
-        padding: 90px 0px 0px 20px;
+        padding: 45px 0px 0px 20px;
         min-height: 180px;
     }
     .descr{
     .suptitle-right::before {
-        left: 92px;
+        left: 130px;
         top: 50%;
     }
   }
@@ -1139,6 +1104,9 @@
                     //- - - 460px - - -//
 @media (max-width: 460px){
      //header//
+     .header-price{
+        background-attachment: scroll;
+    }
      .header__menu {
         padding: 160px 10px 0px 60px;
     }
@@ -1194,15 +1162,6 @@
     }
     .shop__slider-content {
         margin-bottom: 0px;
-    }
-    .shop{
-        .wrap {
-            margin-left: 38%;
-        }
-        .contact-left {
-            width: 60%; 
-            margin: 0;
-        }
     }
     .relax-form{
         .wrap{
@@ -1270,7 +1229,7 @@
         background-size: 100px;
     }
     .travel {
-        padding: 100px 0 270px 0;
+        padding: 100px 0 220px 0;
     }
     .sport {
         padding: 100px 0 0 0;
@@ -1398,20 +1357,6 @@
         .title span {
             font-size: 66px;
             padding: 31px 130px 40px 40px;
-        }
-    }
-    .shop{
-        .wrap {
-            margin-top: 330px;
-            margin-left: 38%;
-            margin-bottom: -265px;
-        }
-        .contact-left {
-            width: 60%; 
-            margin: 0;
-        }
-        .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
-            padding: 0.7em 3em;
         }
     }
     //footer//

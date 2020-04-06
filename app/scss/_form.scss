@@ -147,18 +147,6 @@ select{
     display: block;
     line-height: 1em;
 }
-.styled-input input ~ span,.styled-input textarea ~ span {
-	display: block;
-    width: 0;
-    height: 2px;
-    background:$blue;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    -webkit-transition: all 0.125s;
-    -moz-transition: all 0.125s;
-    transition: all 0.125s;
-}
 .styled-input textarea ~ span { 
     bottom: 5px; 
 }
