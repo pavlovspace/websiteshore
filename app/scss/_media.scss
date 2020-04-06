@@ -56,6 +56,9 @@
         font-size: 125px;
         line-height: 108px;
     }
+    .slider-arrows {
+        top: 250px;
+     }
      //header//
     //- - -SHOP- - -//
     .descr-shop, .shop__slider-price{
@@ -84,6 +87,16 @@
         img{
         margin-bottom: 70px;
         }
+    }
+    .sport-box, .sport-box__wrapper, .sport-box__inner{
+        min-height: 600px;
+    }
+    .sport-box__inner-title-location{
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 5px;
+        left: 220px;
+        bottom: 140px;
     }
 }
 
