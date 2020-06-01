@@ -16,9 +16,9 @@
     } 
 }
 .travel-grid{
-    display: grid; //aktywuje blokowy grid
-    grid-template-columns: repeat(4, 1fr); //określa kolumny i nazwy przerw między nimi,
-    grid-gap: 20px; //definiuje odległość (odstęp) między rzędami i kolumnami 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px;
     padding: 0 106px;
 }
 .wrap-item{
